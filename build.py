@@ -30,6 +30,14 @@ CELL = {
 PROBLEM = {"NS","NOT-SUBMITTED","NC","NC + INC","INC + NC","INC","INDEX","AB",
            "NOT-VALIDATED","NO-VERDICT","UNCLEAR","NO-REPORT"}
 
+# Short column codes so the header sits directly over its cells.
+ABBR = {
+ "English":"Eng", "Hindi":"Hin", "Mathematics":"Math", "Science":"Sci",
+ "General Knowledge":"GK", "Information Technology":"IT", "Social Science":"SST",
+ "Financial Literacy":"Fin.Lit", "Sanskrit / Urdu":"Sans/Urd", "Sanskrit":"Sans",
+ "Hindi / Urdu":"Hin/Urd", "Physics":"Phy", "Chemistry":"Chem", "Biology":"Bio",
+}
+
 def e(s): return html.escape(str(s), quote=False)
 
 CSS = """
@@ -152,22 +160,28 @@ td.cls{font-family:var(--serif);font-size:17px;font-weight:600;white-space:nowra
   padding:14px 16px;border:1px solid var(--line);border-radius:3px;background:var(--surface);font-size:12.5px;color:var(--ink-2)}
 .cellkey div{display:flex;align-items:center;gap:8px}
 .chartwrap{max-height:74vh;overflow:auto}
-table.grid{font-size:12.5px;border-collapse:separate;border-spacing:0}
-table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:5px 8px;white-space:nowrap}
+/* fixed layout: the header cell and its column can never drift apart */
+table.grid{font-size:12.5px;border-collapse:separate;border-spacing:0;table-layout:fixed;width:auto}
+col.w-rno{width:72px}col.w-snm{width:196px}col.w-adm{width:86px}col.w-pc{width:34px}col.w-sub{width:56px}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:5px 8px;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
 table.grid thead th{position:sticky;top:0;z-index:3;background:var(--surface-2);vertical-align:bottom;
-  font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;padding:8px}
-table.grid th.rot{writing-mode:vertical-rl;transform:rotate(180deg);height:118px;text-align:left;
-  font-weight:600;padding:8px 3px}
+  font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;padding:9px 6px}
+table.grid th.sub{text-align:center;font-weight:700;color:var(--ink);padding:9px 2px;
+  border-left:1px solid var(--line)}
+table.grid td.cell{border-left:1px solid var(--line)}
 table.grid td.rno{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
-table.grid td.snm{font-weight:600;max-width:210px;overflow:hidden;text-overflow:ellipsis}
+table.grid td.snm{font-weight:600}
 table.grid td.adm{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
 table.grid td.pc{font-family:var(--mono);text-align:center;color:var(--ink-3);font-variant-numeric:tabular-nums}
 table.grid td.pc.hi{color:var(--bad);font-weight:700}
-table.grid th.rno,table.grid th.snm,table.grid th.adm,table.grid th.pc{writing-mode:horizontal-tb;transform:none;height:auto}
 table.grid tbody tr:hover td{background:color-mix(in srgb,var(--accent) 7%,transparent)}
-.cell{display:inline-block;min-width:26px;text-align:center;font-family:var(--mono);font-size:10.5px;
+/* NOTE: the inline-block form is for the legend swatches only. Applying it to a
+   <td class="cell"> takes the cell out of table layout and the columns drift. */
+span.cell{display:inline-block;min-width:26px;text-align:center;font-family:var(--mono);font-size:10.5px;
   font-weight:600;padding:2px 4px;border-radius:2px;line-height:1.35}
-td.cell{text-align:center;padding:4px 6px}
+td.cell{display:table-cell;text-align:center;padding:4px 2px;font-family:var(--mono);
+  font-size:10.5px;font-weight:600}
 .c-ok{background:var(--ok-bg);color:var(--ok)}
 .c-bad{background:var(--bad-bg);color:var(--bad)}
 .c-nc{background:var(--bad);color:#fff}
@@ -176,7 +190,7 @@ td.cell{text-align:center;padding:4px 6px}
 .c-nov{background:repeating-linear-gradient(45deg,var(--bad-bg),var(--bad-bg) 4px,transparent 4px,transparent 8px);color:var(--bad)}
 .c-unk{background:var(--surface-2);color:var(--ink-2);border:1px dashed var(--line)}
 .c-none{background:transparent;color:var(--ink-3)}
-.c-idle{background:transparent;color:transparent}
+.c-idle{background:repeating-linear-gradient(45deg,transparent,transparent 5px,var(--surface-2) 5px,var(--surface-2) 10px);color:var(--ink-3)}
 .c-neut{background:var(--idle-bg);color:var(--idle)}
 .chk{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--ink-2);cursor:pointer}
 .btn{font:inherit;font-size:13.5px;padding:7px 12px;border:1px solid var(--line);border-radius:2px;
@@ -372,7 +386,9 @@ def charts():
         if not rows:
             continue
         subs = subs_by_cls[cls]
-        head = "".join(f'<th class="rot" title="{e(s)}">{e(s)}</th>' for s in subs)
+        cols = ('<colgroup><col class="w-rno"><col class="w-snm"><col class="w-adm"><col class="w-pc">'
+                + f'<col class="w-sub">' * len(subs) + '</colgroup>')
+        head = "".join(f'<th class="sub" title="{e(s)}">{e(ABBR.get(s, s))}</th>' for s in subs)
         body = []
         for r in rows:
             nprob = sum(1 for c in r["cells"] if c["v"] in PROBLEM)
@@ -391,7 +407,7 @@ def charts():
             f'<details class="card chart" data-cls="{e(cls)}"><summary>'
             f'<span class="marker">&#9656;</span><span class="tw">Class {e(cls)}</span>'
             f'<span class="who">{len(rows)} students &middot; {len(subs)} subjects</span></summary>'
-            f'<div class="body"><div class="tbl chartwrap"><table class="grid">'
+            f'<div class="body"><div class="tbl chartwrap"><table class="grid">{cols}'
             f'<thead><tr><th class="rno">Sec/Roll</th><th class="snm">Student</th>'
             f'<th class="adm">Adm No.</th><th class="pc" title="Number of subjects with something wrong">&#9873;</th>'
             f'{head}</tr></thead><tbody>{"".join(body)}</tbody></table></div></div></details>')
