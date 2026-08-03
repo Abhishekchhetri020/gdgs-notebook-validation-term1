@@ -496,8 +496,7 @@ SCRIPT = """
 def page(private):
     global PRIVATE
     PRIVATE = private
-    title =("Term I Notebook Validation — Full Audit (Confidential)" if private
-             else "Term I Notebook Validation — Audit Report")
+    title = "Term I Notebook Validation 2026-27 — Audit Report · G.D. Goenka School, Darbhanga"
     badge = '<span class="pill">contains student names &mdash; school record</span>'
     toc = [("legend","Marks"),("corrections","Corrections"),("coverage","Coverage"),
            ("charts","Class charts"),("students","Students"),("classes","By class"),
