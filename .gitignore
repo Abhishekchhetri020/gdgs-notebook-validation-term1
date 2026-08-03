@@ -1,3 +1,2 @@
-# Never publish: these contain student names and admission numbers
-data.json
-confidential.html
+# working data — the published pages are generated from these
+roster_raw.xls

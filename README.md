@@ -5,18 +5,15 @@ G.D. Goenka School, Darbhanga. Audit of the Term I notebook validation drive,
 
 **Live report:** https://abhishekchhetri020.github.io/gdgs-notebook-validation-term1/
 
-This is the shareable summary. It shows coverage by class, validator performance,
-teacher accountability and the actions arising. Individual student names and
-admission numbers are deliberately withheld — those are held in a separate
-confidential version issued to the Director and the Academic Coordinator.
+Published on the instruction of the Academic Coordinator so that teachers, validators and management all see the
+same record. It contains student names and admission numbers and is excluded from search-engine indexing.
 
 ## Rebuilding
 
     python3 build.py
 
 `build.py` generates `index.html` (public) and `confidential.html` (private) from
-`data.json`. The build refuses to write the public page if any student name or
-admission number is found in it.
+`data.json`. The class charts join the audit findings to a roster pulled fresh from the school ERP on 3 August 2026
+(861 active students, 27 sections).
 
-`data.json` is **not** published here — it holds the student-level findings and is
-kept inside the school. The public page in this repository is generated output only.
+`data.json` holds the audit findings and `matrix.json` the ERP roster join; `build.py` regenerates both pages from them.

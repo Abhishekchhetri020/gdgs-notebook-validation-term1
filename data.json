@@ -1,0 +1,6872 @@
+{
+ "meta": {
+  "school": "G.D. Goenka School, Darbhanga",
+  "drive": "Term I Notebook Validation 2026-27",
+  "window": "Wed 29 July – Tue 4 August 2026",
+  "audited": "3 August 2026, 21:00 IST",
+  "sources": "884 mailbox messages re-read with no keyword filter; 46 validation reports; 85 attachments; 133 rendered sheet pages read; roster pulled fresh from the ERP on 3 August",
+  "students": 861,
+  "sections": 27,
+  "planned_checks": 6637,
+  "planned_slots": 74,
+  "slots_due": 62,
+  "slots_reported": 46,
+  "slots_missing": 16,
+  "slots_not_due": 12
+ },
+ "legend": [
+  [
+   "✓ / Complete",
+   "ok",
+   "Notebook produced and accepted by the validator. Does NOT certify that the subject teacher had checked it."
+  ],
+  [
+   "NS / Not Submitted / Not Brought",
+   "bad",
+   "Student produced no notebook. Written NS (AB) when the cause was absence, NS (Not Brought) when the child was present."
+  ],
+  [
+   "AB / Absent",
+   "warn",
+   "Student absent that day. Legitimate — but the notebook is still unchecked and must be re-run."
+  ],
+  [
+   "NC / T.N.C. / Not Checked",
+   "bad",
+   "TEACHER LAPSE. The work was done; the subject teacher never checked or signed it."
+  ],
+  [
+   "INC / Incomplete / W.I.C.",
+   "warn",
+   "Student lapse — work not up to date, pages or exercises missing."
+  ],
+  [
+   "N.M. — Index not made",
+   "warn",
+   "Index page never started. N.C. on Mr. Abhaydeep's sheets means 'index not completed'."
+  ],
+  [
+   "Index / Date / P.G. missing",
+   "warn",
+   "Maintenance defects recorded in the Remarks column."
+  ],
+  [
+   "Left / New / Transferred",
+   "idle",
+   "Student has left, joined recently, or moved section. Roster correction, not a defect."
+  ],
+  [
+   "(blank)",
+   "bad",
+   "NO VERDICT RECORDED. Treat as NOT VALIDATED — a blank block of rows means those notebooks never reached the validator."
+  ]
+ ],
+ "validators": [
+  {
+   "cls": "I",
+   "assigned": "Mr. Prashant Chauhan",
+   "acted": "Mr. Prashant Chauhan",
+   "sub": false,
+   "due": 5,
+   "got": 5,
+   "sameday": 5,
+   "note": "Every report same-day, both sections named in the defaulter box, sheet signed and dated. The benchmark for the drive."
+  },
+  {
+   "cls": "II",
+   "assigned": "Mr. Dinesh Dutta",
+   "acted": "Mr. Dinesh Dutta",
+   "sub": false,
+   "due": 5,
+   "got": 4,
+   "sameday": 3,
+   "note": "Reports arrive, but three of four have the Defaulter Summary box left completely blank — counts with no names. First report was rejected by Director Ma'am."
+  },
+  {
+   "cls": "III",
+   "assigned": "Mr. Syed Farhan Ahmad (Librarian)",
+   "acted": "Mr. Syed Farhan Ahmad",
+   "sub": false,
+   "due": 4,
+   "got": 4,
+   "sameday": 4,
+   "note": "Reported same-day on 29 July with five scanned sheets. Uses Complete / Incomplete / Absent plus 'Indexing left' and 'Not Checked' in Remarks — among the most informative sheets received. English was validated AHEAD of its 4 Aug date. GK III-B reported by mail only because the physical list had already been handed to Ms. Prerna."
+  },
+  {
+   "cls": "IV",
+   "assigned": "Ms. Yogita Mohabey",
+   "acted": "Ms. Yogita Mohabey",
+   "sub": false,
+   "due": 5,
+   "got": 4,
+   "sameday": 0,
+   "note": "All four reports e-mailed together on 1 August — the 30 July sheets three days late, out of order, with no class/subject/date in the subject line. Director Ma'am replied: 'I am not able to understand the report.'"
+  },
+  {
+   "cls": "V",
+   "assigned": "Mr. Saurabh Singh",
+   "acted": "Mr. Saurabh Singh",
+   "sub": false,
+   "due": 5,
+   "got": 2,
+   "sameday": 1,
+   "note": "Hindi on 29 July, then silence until Science tonight. Three validations passed with no report and no explanation. The Science sheet shows only 17 of 80 validated."
+  },
+  {
+   "cls": "VI",
+   "assigned": "Mr. Abhaydeep Kumar",
+   "acted": "Mr. Abhaydeep Kumar + Ms. Ankita Kerketta",
+   "sub": true,
+   "due": 8,
+   "got": 8,
+   "sameday": 0,
+   "note": "Two people validated Class VI in parallel with no handover note on record. Ms. Ankita covered six subjects (all reported 1–3 days late); Mr. Abhaydeep sent English and Sanskrit/Urdu tonight as typed tables addressed to the subject teachers. Coverage is complete — the findings are what alarmed the Director."
+  },
+  {
+   "cls": "VII",
+   "assigned": "Ms. Debika Ghosh",
+   "acted": "Ms. Debika Ghosh",
+   "sub": false,
+   "due": 7,
+   "got": 4,
+   "sameday": 0,
+   "note": "Four reports, all sent 1–2 days late. Three validations from Sat 1 Aug and Mon 3 Aug have not been reported."
+  },
+  {
+   "cls": "VIII",
+   "assigned": "Mr. Diwas Rai",
+   "acted": "Ms. Chhumi Hang Rai (29 Jul) → Ms. Avni Kaushik",
+   "sub": true,
+   "due": 8,
+   "got": 3,
+   "sameday": 2,
+   "note": "Mr. Diwas was absent from day one. Ms. Chhumi stepped in on 29 July — 'On absence of Mr Diwas I have taken his place'. Ms. Avni has reported since. One sheet is signed 'for' another person. Five of eight due validations have no report."
+  },
+  {
+   "cls": "IX",
+   "assigned": "Mr. Aman Yadav",
+   "acted": "Mr. Aman Yadav",
+   "sub": false,
+   "due": 8,
+   "got": 6,
+   "sameday": 3,
+   "note": "Consistent reporter with properly named, section-split defaulter lists. Two weaknesses: on four sheets 'Not produced' and 'Absent' carry the identical figure, and the Sanskrit sheet is not credible as filled."
+  },
+  {
+   "cls": "X",
+   "assigned": "Mr. Santu Goswami",
+   "acted": "Mr. Santu Goswami",
+   "sub": false,
+   "due": 7,
+   "got": 6,
+   "sameday": 6,
+   "note": "The only validator who followed the CC rule exactly every time (Coordinator + Director + Mr. Manoj). Runs the Period 1→8 custody window. First two reports were mail-body only with no signed sheet; every report since has carried the sheet."
+  }
+ ],
+ "slots": [
+  {
+   "c": "I",
+   "s": "English",
+   "d": "Wed 29 Jul",
+   "st": "ok",
+   "by": "Mr. Prashant",
+   "t": 55,
+   "v": 45,
+   "np": 10,
+   "ab": 10,
+   "n": "Same-day. Defaulters split I-A / I-B by hand."
+  },
+  {
+   "c": "I",
+   "s": "Science",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Mr. Prashant",
+   "t": 55,
+   "v": 44,
+   "np": 11,
+   "ab": 11,
+   "n": "Same-day."
+  },
+  {
+   "c": "I",
+   "s": "General Knowledge",
+   "d": "Fri 31 Jul",
+   "st": "ok",
+   "by": "Mr. Prashant",
+   "t": 55,
+   "v": 45,
+   "np": 15,
+   "ab": 15,
+   "n": "Same-day."
+  },
+  {
+   "c": "I",
+   "s": "Hindi",
+   "d": "Mon 03 Aug",
+   "st": "ok",
+   "by": "Mr. Prashant",
+   "t": 55,
+   "v": 51,
+   "np": 4,
+   "ab": 4,
+   "n": "Same-day. One remark: L-6 not done."
+  },
+  {
+   "c": "I",
+   "s": "Information Technology",
+   "d": "Mon 03 Aug",
+   "st": "ok",
+   "by": "Mr. Prashant",
+   "t": 55,
+   "v": 50,
+   "np": 5,
+   "ab": 5,
+   "n": "Same-day. One remark: L-4 not done."
+  },
+  {
+   "c": "I",
+   "s": "Mathematics",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Prashant",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "II",
+   "s": "Mathematics",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Mr. Dinesh",
+   "t": 60,
+   "v": 51,
+   "ab": 9,
+   "n": "REJECTED by Director Ma'am the same evening — 'The report is not useful as it does not provide required data!!'. On the sheet, 11 rows in II B (Sr 38–48) are completely blank."
+  },
+  {
+   "c": "II",
+   "s": "General Knowledge",
+   "d": "Thu 30 Jul",
+   "st": "part",
+   "by": "Mr. Dinesh",
+   "t": 60,
+   "v": 43,
+   "np": 8,
+   "ab": 9,
+   "n": "Defaulter Summary box left empty — 17 defaulters counted, none named."
+  },
+  {
+   "c": "II",
+   "s": "Information Technology",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Mr. Dinesh",
+   "t": 60,
+   "v": 48,
+   "ab": 7,
+   "n": "Defaulter box empty. 'Not produced' left blank with 'Incomplete 5' written across it, so the arithmetic cannot be closed."
+  },
+  {
+   "c": "II",
+   "s": "Science",
+   "d": "Sat 01 Aug",
+   "st": "part",
+   "by": "Mr. Dinesh",
+   "t": 60,
+   "v": 48,
+   "np": 12,
+   "ab": 12,
+   "n": "Defaulter box empty. Written below the signature: 'Index not written in all the notebooks' — a whole-class teaching lapse."
+  },
+  {
+   "c": "II",
+   "s": "English",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Mr. Dinesh",
+   "n": "Due today. No report."
+  },
+  {
+   "c": "II",
+   "s": "Hindi",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Dinesh",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "III",
+   "s": "Mathematics",
+   "d": "Wed 29 Jul",
+   "st": "ok",
+   "by": "Mr. Farhan",
+   "t": 56,
+   "n": "Scanned sheet, same-day. Verdicts written as Complete / Absent, with 'Indexing left' noted against 10 students."
+  },
+  {
+   "c": "III",
+   "s": "Hindi",
+   "d": "Wed 29 Jul",
+   "st": "ok",
+   "by": "Mr. Farhan",
+   "t": 56,
+   "v": 43,
+   "ab": 3,
+   "n": "Marked 'H. Literature' on the header. Hindi Grammar covered in the same submission."
+  },
+  {
+   "c": "III",
+   "s": "General Knowledge",
+   "d": "Fri 31 Jul",
+   "st": "ok",
+   "by": "Mr. Farhan",
+   "t": 56,
+   "v": 48,
+   "n": "Sheet submitted for III-A. For III-B, reported by mail: 50 of 56 validated, 5 did not produce. Physical list already handed to Ms. Prerna, so no photograph could be taken."
+  },
+  {
+   "c": "III",
+   "s": "Information Technology",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Mr. Farhan",
+   "n": "Due today. No report. III A was an advance-collection case."
+  },
+  {
+   "c": "III",
+   "s": "English",
+   "d": "Tue 04 Aug",
+   "st": "early",
+   "by": "Mr. Farhan",
+   "t": 56,
+   "v": 45,
+   "np": 11,
+   "n": "VALIDATED AHEAD OF SCHEDULE — sheet dated Tue 04 Aug but completed and submitted on 29 July. Four students marked 'Not Checked' against the teacher."
+  },
+  {
+   "c": "III",
+   "s": "Science",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Farhan",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "IV",
+   "s": "English",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Ms. Yogita",
+   "t": 85,
+   "v": 68,
+   "np": 17,
+   "ab": 17,
+   "n": "Full defaulter list written out. Reported 1 Aug — three days late."
+  },
+  {
+   "c": "IV",
+   "s": "Science",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Ms. Yogita",
+   "t": 85,
+   "v": 74,
+   "np": 11,
+   "ab": 11,
+   "n": "Defaulters grouped by section. Reported 1 Aug."
+  },
+  {
+   "c": "IV",
+   "s": "Hindi",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Ms. Yogita",
+   "t": 85,
+   "v": 22,
+   "np": 3,
+   "ab": 3,
+   "n": "ONLY IV C VALIDATED. Ms. Sumitra, Hindi teacher for IV A and IV B, on leave four days — 63 notebooks never produced. Noted on the sheet and confirmed by mail 2 Aug."
+  },
+  {
+   "c": "IV",
+   "s": "Information Technology",
+   "d": "Sat 01 Aug",
+   "st": "ok",
+   "by": "Ms. Yogita",
+   "t": 85,
+   "v": 81,
+   "np": 4,
+   "ab": 4,
+   "n": "Best result in Class IV."
+  },
+  {
+   "c": "IV",
+   "s": "General Knowledge",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Ms. Yogita",
+   "n": "Due today. No report. Ms. Sonia Rai warned on 1 Aug that IV-A students were held back for 15 August practice and could not complete the written work before this validation."
+  },
+  {
+   "c": "IV",
+   "s": "Mathematics",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Ms. Yogita",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "V",
+   "s": "Hindi",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Mr. Saurabh",
+   "t": 80,
+   "v": 37,
+   "ab": 1,
+   "n": "SECTION V B NEVER VALIDATED — rows 38–59, all 22 students, entirely blank. 'The notebooks for that section were not provided to me by the concerned teacher.' Arithmetic does not close: 42 students unaccounted for."
+  },
+  {
+   "c": "V",
+   "s": "Mathematics",
+   "d": "Thu 30 Jul",
+   "st": "miss",
+   "by": "Mr. Saurabh",
+   "n": "No report."
+  },
+  {
+   "c": "V",
+   "s": "General Knowledge",
+   "d": "Fri 31 Jul",
+   "st": "miss",
+   "by": "Mr. Saurabh",
+   "n": "No report. V A was an advance-collection case."
+  },
+  {
+   "c": "V",
+   "s": "English",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Mr. Saurabh",
+   "n": "No report."
+  },
+  {
+   "c": "V",
+   "s": "Science",
+   "d": "Mon 03 Aug",
+   "st": "part",
+   "by": "Mr. Saurabh",
+   "t": 80,
+   "v": 17,
+   "ab": 3,
+   "n": "Reported tonight. ONLY 17 OF 80 VALIDATED and no explanation given for the other 60. Needs an answer before it can be accepted."
+  },
+  {
+   "c": "V",
+   "s": "Information Technology",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Saurabh",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "VI",
+   "s": "General Knowledge",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "EVERY VI C ROW MARKED INC — the entire section's GK work is incomplete. Defaulter box holds one line only ('Recently got the book'). Reported 31 Jul. Director Ma'am forwarded this sheet: 'Kindly check the details, sounds very alarming!'"
+  },
+  {
+   "c": "VI",
+   "s": "Science",
+   "d": "Thu 30 Jul",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "Defaulter box carries a full column of 'Not checked' against Ms. Saloni, alongside not-submitted and incomplete entries. Reported 31 Jul."
+  },
+  {
+   "c": "VI",
+   "s": "Social Science",
+   "d": "Thu 30 Jul",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "Defaulter box dominated by 'Not checked / Incomplete' pairs. Three different section teachers. Reported 31 Jul."
+  },
+  {
+   "c": "VI",
+   "s": "Financial Literacy",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "Sheet dense with INC across VI C. Summary counts not filled in. Reported 2 Aug."
+  },
+  {
+   "c": "VI",
+   "s": "Mathematics",
+   "d": "Sat 01 Aug",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "Long defaulter list mixing absentees, non-submitters and incomplete work. Counts not filled in. Reported 2 Aug."
+  },
+  {
+   "c": "VI",
+   "s": "Information Technology",
+   "d": "Sat 01 Aug",
+   "st": "part",
+   "by": "Ms. Ankita",
+   "t": 101,
+   "n": "Every defaulter reason reads 'Not Submitted' — 25 named students produced no IT notebook. Counts not filled in. Reported 3 Aug, two days late."
+  },
+  {
+   "c": "VI",
+   "s": "English",
+   "d": "Mon 03 Aug",
+   "st": "ok",
+   "by": "Mr. Abhaydeep",
+   "t": 101,
+   "n": "Reported tonight as a typed table addressed to Mr. Aswani with Director and Coordinator in CC. 29 students named across all three sections, almost all N.S."
+  },
+  {
+   "c": "VI",
+   "s": "Sanskrit / Urdu",
+   "d": "Mon 03 Aug",
+   "st": "ok",
+   "by": "Mr. Abhaydeep",
+   "t": 101,
+   "n": "Reported tonight as a typed table addressed to Mr. Harikesh and Dr. Sonali. 19 students named — overwhelmingly index defects, plus one notebook not checked."
+  },
+  {
+   "c": "VI",
+   "s": "Hindi",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Class VI",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "VII",
+   "s": "Mathematics",
+   "d": "Thu 30 Jul",
+   "st": "part",
+   "by": "Ms. Debika",
+   "t": 97,
+   "v": 44,
+   "np": 15,
+   "ab": 2,
+   "n": "VII A NOT SUBMITTED. Mr. Pradip Mahtha apologised in writing on 31 July — he expected the validator to come to him; she did not ask, then declined on 31 July. A fresh date was arranged and he states the notebooks were submitted. The re-run report has not arrived."
+  },
+  {
+   "c": "VII",
+   "s": "Social Science",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Ms. Debika",
+   "t": 97,
+   "n": "Signed sheet received (photographed 1 Aug)."
+  },
+  {
+   "c": "VII",
+   "s": "Financial Literacy",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Ms. Debika",
+   "t": 97,
+   "v": 78,
+   "np": 18,
+   "n": "Absent count left blank. VII C was an advance-collection case."
+  },
+  {
+   "c": "VII",
+   "s": "Sanskrit / Urdu",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Ms. Debika",
+   "t": 97,
+   "v": 24,
+   "np": 17,
+   "n": "SANSKRIT NOT SUBMITTED FOR VII A AND VII B. Only 24 of 97 validated."
+  },
+  {
+   "c": "VII",
+   "s": "English",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Ms. Debika",
+   "n": "No report."
+  },
+  {
+   "c": "VII",
+   "s": "Hindi",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Ms. Debika",
+   "n": "No report."
+  },
+  {
+   "c": "VII",
+   "s": "Information Technology",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Ms. Debika",
+   "n": "Due today. No report. VII A and VII C were advance-collection cases."
+  },
+  {
+   "c": "VII",
+   "s": "General Knowledge",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Ms. Debika",
+   "n": "Scheduled tomorrow. VII A advance collection."
+  },
+  {
+   "c": "VII",
+   "s": "Science",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Ms. Debika",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "VIII",
+   "s": "Sanskrit / Urdu",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Ms. Chhumi (for Mr. Diwas)",
+   "t": 125,
+   "n": "Heavy NS through VIII A Sanskrit — roughly two-thirds of the section produced nothing. Urdu students in VIII A almost all validated. VIII C was an advance-collection case."
+  },
+  {
+   "c": "VIII",
+   "s": "Science",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Ms. Chhumi (for Mr. Diwas)",
+   "t": 125,
+   "v": 94,
+   "np": 8,
+   "ab": 23,
+   "n": "THIRTEEN VIII A STUDENTS RECORDED 'NOT CHECKED'. Work was done; Ms. Rimjhim had not checked it. Sheet signed 'for' the validator."
+  },
+  {
+   "c": "VIII",
+   "s": "General Knowledge",
+   "d": "Thu 30 Jul",
+   "st": "part",
+   "by": "Ms. Avni",
+   "t": 125,
+   "v": 26,
+   "ab": 19,
+   "n": "ALL 37 VIII A ROWS MARKED NS — the whole section produced no GK notebook. VIII A was an advance-collection case: Mr. Arko was required to collect the notebooks beforehand and hand them over. He did not."
+  },
+  {
+   "c": "VIII",
+   "s": "Financial Literacy",
+   "d": "Fri 31 Jul",
+   "st": "miss",
+   "by": "Ms. Avni",
+   "n": "NOTEBOOKS NEVER SUBMITTED. Ms. Avni's reminder of 3 Aug to Mr. Arko: 'As per the schedule, these notebooks were to be submitted by 31 July. However, they have not yet been submitted.'"
+  },
+  {
+   "c": "VIII",
+   "s": "Mathematics",
+   "d": "Fri 31 Jul",
+   "st": "miss",
+   "by": "Ms. Avni",
+   "n": "No report."
+  },
+  {
+   "c": "VIII",
+   "s": "English",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Ms. Avni",
+   "n": "No report."
+  },
+  {
+   "c": "VIII",
+   "s": "Social Science",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Ms. Avni",
+   "n": "No report."
+  },
+  {
+   "c": "VIII",
+   "s": "Hindi",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Ms. Avni",
+   "n": "Due today. No report."
+  },
+  {
+   "c": "VIII",
+   "s": "Information Technology",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Ms. Avni",
+   "n": "Scheduled tomorrow. VIII C advance collection."
+  },
+  {
+   "c": "IX",
+   "s": "Information Technology",
+   "d": "Wed 29 Jul",
+   "st": "ok",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 80,
+   "np": 33,
+   "ab": 34,
+   "n": "Defaulters named and split by section. Reported 30 Jul."
+  },
+  {
+   "c": "IX",
+   "s": "Sanskrit",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 12,
+   "np": 1,
+   "ab": 1,
+   "n": "FIGURES DO NOT STAND UP. Only 12 validated of 114, one non-submission, one absence, Defaulter Summary box completely empty. 100 students have no verdict of any kind."
+  },
+  {
+   "c": "IX",
+   "s": "Biology",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 75,
+   "np": 39,
+   "ab": 39,
+   "n": "IX A was an advance-collection case. Reported 31 Jul."
+  },
+  {
+   "c": "IX",
+   "s": "Physics",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 81,
+   "np": 33,
+   "ab": 33,
+   "n": "IX C was an advance-collection case. Long, properly named defaulter list."
+  },
+  {
+   "c": "IX",
+   "s": "English",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 26,
+   "np": 12,
+   "ab": 12,
+   "n": "ONLY IX C VALIDATED. Written on the sheet: 'Subject Teacher IX A and IX B — Long AB'. Mr. Yowel on extended leave; 88 notebooks never reached the validator."
+  },
+  {
+   "c": "IX",
+   "s": "Chemistry",
+   "d": "Sat 01 Aug",
+   "st": "miss",
+   "by": "Mr. Aman",
+   "n": "No report."
+  },
+  {
+   "c": "IX",
+   "s": "Hindi / Urdu",
+   "d": "Mon 03 Aug",
+   "st": "part",
+   "by": "Mr. Aman",
+   "t": 114,
+   "v": 58,
+   "ab": 56,
+   "n": "Reported tonight. 'Subject teacher of IX A on leave' — that section was not validated. Counts as written (58 validated, 56 absent) do not reconcile against 114."
+  },
+  {
+   "c": "IX",
+   "s": "Social Science",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Mr. Aman",
+   "n": "Due today. No report."
+  },
+  {
+   "c": "IX",
+   "s": "Mathematics",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Aman",
+   "n": "Scheduled tomorrow."
+  },
+  {
+   "c": "X",
+   "s": "Chemistry",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 76,
+   "np": 10,
+   "n": "Mail body only — no signed sheet was photographed. Defects were described per student, which is more than most reports gave."
+  },
+  {
+   "c": "X",
+   "s": "Mathematics",
+   "d": "Wed 29 Jul",
+   "st": "part",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 78,
+   "np": 8,
+   "n": "Mail body only — no signed sheet."
+  },
+  {
+   "c": "X",
+   "s": "Social Science",
+   "d": "Thu 30 Jul",
+   "st": "ok",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 67,
+   "ab": 19,
+   "n": "BEST SHEET IN THE DRIVE. Remarks filled student by student with exactly what the Office Order asks for — NC (Eco), NC (Geo), NOT SIGN, Date missing, Index missing, INC. Around 25 students have Social Science notebooks Mr. Prakash never checked or signed. Two caveats: the 19 are labelled 'Absent' when the sheet marks them NS, and the Defaulter box is empty because everything was written in Remarks."
+  },
+  {
+   "c": "X",
+   "s": "Hindi / Urdu",
+   "d": "Fri 31 Jul",
+   "st": "part",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 8,
+   "np": 1,
+   "n": "ALL HINDI UNVALIDATED. 'Since the Hindi teacher was absent, the Hindi notebook validation could not be conducted.' Mr. Nikhil teaches Hindi to all three sections — 77 students. Only the 9 Urdu students of X A were validated."
+  },
+  {
+   "c": "X",
+   "s": "Physics",
+   "d": "Sat 01 Aug",
+   "st": "ok",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 55,
+   "np": 31,
+   "n": "DEFERRED THEN DELIVERED. Could not run on 1 Aug because Mr. Satyananda was absent; Mr. Santu wrote asking for the notebooks 'on Monday after the assembly', Mr. Satyananda replied 'It will be submitted on Monday', and the signed sheet arrived tonight. The follow-through worked — but 31 of 86 still did not submit."
+  },
+  {
+   "c": "X",
+   "s": "English",
+   "d": "Mon 03 Aug",
+   "st": "miss",
+   "by": "Mr. Santu",
+   "n": "Due today. No report."
+  },
+  {
+   "c": "X",
+   "s": "Information Technology",
+   "d": "Mon 03 Aug",
+   "st": "ok",
+   "by": "Mr. Santu",
+   "t": 86,
+   "v": 85,
+   "ab": 1,
+   "n": "Reported tonight. Best single result of the drive — 85 of 86. X B was an advance-collection case and it worked."
+  },
+  {
+   "c": "X",
+   "s": "Biology",
+   "d": "Tue 04 Aug",
+   "st": "idle",
+   "by": "Mr. Santu",
+   "n": "Scheduled tomorrow. X C advance collection."
+  }
+ ],
+ "teachers": [
+  {
+   "name": "Mr. Arko (Arkojyoti Moitra)",
+   "sev": "critical",
+   "subjects": "General Knowledge VI & VIII; Financial Literacy VI, VII, VIII",
+   "findings": [
+    "Class VIII General Knowledge, 30 Jul — all 37 VIII A students marked NS. The entire section produced no notebook. This was an advance-collection slot: the subject had no period that day, so he was required to hand the notebooks over in advance.",
+    "Class VIII Financial Literacy, 31 Jul — notebooks still not submitted as of tonight, three days late. Formal reminder sent by Ms. Avni Kaushik today.",
+    "Class VI General Knowledge, 29 Jul — every single VI C row marked INC (incomplete). This is the sheet Director Ma'am forwarded as 'very alarming'.",
+    "Class VI Financial Literacy, 31 Jul — sheet dense with INC across VI C.",
+    "Class VII Financial Literacy, 31 Jul — 18 of 97 not produced."
+   ],
+   "why": "He carried six of the drive's nineteen advance-collection cases — the largest single load — and was flagged in planning as the likeliest to slip."
+  },
+  {
+   "name": "Mr. Prakash Parajuli",
+   "sev": "critical",
+   "subjects": "Social Science X (all three sections)",
+   "findings": [
+    "Around 25 Class X students have Social Science notebooks marked NC — not checked — concentrated in Economics and Geography, several also NOT SIGN or with the date missing.",
+    "This is the single largest concentration of unchecked work found in the drive, and it is in a board class."
+   ],
+   "why": "Recorded meticulously by Mr. Santu in the Remarks column, student by student. The evidence is unusually strong."
+  },
+  {
+   "name": "Ms. Rimjhim Banerjee",
+   "sev": "critical",
+   "subjects": "Science VIII A; Biology IX C",
+   "findings": [
+    "Class VIII Science, 29 Jul — thirteen VIII A students listed in the Defaulter Summary with the reason written out longhand as NOT CHECKED. The children had done the work."
+   ],
+   "why": "Named on a signed, certified sheet."
+  },
+  {
+   "name": "Ms. Saloni Kumari",
+   "sev": "high",
+   "subjects": "Science VI (all sections); Biology IX A",
+   "findings": [
+    "Class VI Science, 30 Jul — a full column of the Defaulter Summary reads 'Not checked' (Nayan Kr. Jha, Shivani Kumari, Vidhi Kumar, Yash Kumar, Adarsh Mandal, Manasvi Mukund), alongside Saurabh Kumar and Piyush Kumar also marked not checked in the same box."
+   ]
+  },
+  {
+   "name": "Mr. Nikhil",
+   "sev": "high",
+   "subjects": "Hindi X A, X B, X C",
+   "findings": [
+    "Absent on 31 July, the assigned date. All 77 Class X Hindi notebooks were never produced and the entire subject stands unvalidated for a board class."
+   ],
+   "why": "Absence is legitimate; leaving the slot unrescheduled is not."
+  },
+  {
+   "name": "Mr. Yowel Gurung",
+   "sev": "high",
+   "subjects": "English IX A, IX B",
+   "findings": [
+    "On extended leave. 88 Class IX English notebooks were never produced — Mr. Aman wrote 'Subject Teacher IX A and IX B — Long AB' directly on the sheet."
+   ]
+  },
+  {
+   "name": "Ms. Sumitra Chhetri",
+   "sev": "high",
+   "subjects": "Hindi IV A, IV B",
+   "findings": [
+    "On leave four days across the drive. 63 Class IV Hindi notebooks never produced; only IV C was validated."
+   ]
+  },
+  {
+   "name": "Ms. Mamta Sharma",
+   "sev": "high",
+   "subjects": "Hindi V A, V B",
+   "findings": [
+    "Class V Hindi, 29 Jul — the V B notebooks were never handed to the validator. Mr. Saurabh: 'the notebooks for that section were not provided to me by the concerned teacher.' 22 students unvalidated.",
+    "Also named in the V Hindi defaulter box for Aarav Singh — 'incomplete work, not checked'."
+   ]
+  },
+  {
+   "name": "Dr. Sonali Saini",
+   "sev": "high",
+   "subjects": "Sanskrit VII A, VIII A, IX (all)",
+   "findings": [
+    "Class VII Sanskrit, 31 Jul — VII A notebooks not submitted for validation.",
+    "Class IX Sanskrit, 29 Jul — the sheet records only 12 validated out of 114 with an empty defaulter box; 100 students have no verdict.",
+    "Class VIII Sanskrit, 29 Jul — heavy NS through VIII A."
+   ]
+  },
+  {
+   "name": "Mr. Harikesh Kumar",
+   "sev": "high",
+   "subjects": "Sanskrit VII B, VIII B, VIII C, VI",
+   "findings": [
+    "Class VII Sanskrit, 31 Jul — VII B notebooks not submitted for validation.",
+    "Class VI Sanskrit/Urdu, 3 Aug — 19 students named by Mr. Abhaydeep, overwhelmingly index not completed or not made, plus one notebook not checked at all."
+   ]
+  },
+  {
+   "name": "Mr. Pradip Mahtha",
+   "sev": "medium",
+   "subjects": "Mathematics VII A",
+   "findings": [
+    "Class VII Mathematics, 30 Jul — notebooks not submitted on the day. Apologised in writing on 31 July, accepted full responsibility, and states the notebooks were submitted on the re-arranged date."
+   ],
+   "why": "Handled correctly once discovered. What is still missing is the re-run report confirming the validation actually happened."
+  },
+  {
+   "name": "Mr. Satyananda Rauth",
+   "sev": "resolved",
+   "subjects": "Physics X",
+   "findings": [
+    "Absent on 1 Aug so Class X Physics could not run. Committed in writing to submit on Monday after assembly, did so, and Mr. Santu's signed sheet arrived tonight."
+   ],
+   "why": "This is the model for how a missed slot should be recovered."
+  },
+  {
+   "name": "Ms. Jaya Chandra",
+   "sev": "low",
+   "subjects": "Science IV",
+   "findings": [
+    "Class IV Science, 30 Jul — Md Tariq Imam's notebook marked NC, not checked."
+   ]
+  },
+  {
+   "name": "Ms. Bipasha Subba / Ms. Yachna Rai",
+   "sev": "low",
+   "subjects": "Mathematics II A, II B",
+   "findings": [
+    "Class II Mathematics, 29 Jul — 11 rows in II B left entirely blank on the sheet, so it cannot be established whether those notebooks were seen. The report was rejected by Director Ma'am."
+   ]
+  },
+  {
+   "name": "Ms. Saniya Parvin",
+   "sev": "low",
+   "subjects": "English III A, III B",
+   "findings": [
+    "Class III English — four students marked 'Not Checked' in the Remarks column by Mr. Farhan (Hem Prakash, Kashish Kumari, Raghav Jha, Riyaarth Gupta, Abhigya Sharma)."
+   ]
+  }
+ ],
+ "students": [
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Aadvik Sahani",
+   "adm": "AD-00501",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Aanya Singh",
+   "adm": "AD-01237",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Long absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Aahana Roy",
+   "adm": "AD-00437",
+   "f": [
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted today (absent)"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Shaurya Mallick",
+   "adm": "AD-01191",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Ghazal Singh",
+   "adm": "AD-01236",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Purvika Singh",
+   "adm": "AD-01213",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "LEFT",
+     "Left the school"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "LEFT",
+     "Left the school"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Absent — left"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Shreyansh Jha",
+   "adm": "AD-00837",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Yuvraj Singh",
+   "adm": "AD-01091",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "AB",
+     "Absent"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Long absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Atharv",
+   "adm": "AD-01516",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NEW",
+     "New student"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Amad Hayat",
+   "adm": "AD-00785",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Bhavya Kumari",
+   "adm": "AD-00695",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Kartik Aryan",
+   "adm": "AD-00473",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Navya Singh",
+   "adm": "AD-01152",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Ramanuj",
+   "adm": "AD-00727",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Rishav",
+   "adm": "AD-01163",
+   "f": [
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Aaruhi Kumari",
+   "adm": "AD-01372",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "A",
+   "n": "Suryansh",
+   "adm": "",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Aashya",
+   "adm": "AD-01423",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Rishabh Samrat",
+   "adm": "AD-01344",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Shriyansh Kumar",
+   "adm": "AD-01467",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "LEFT",
+     "Left the school"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Shril Shwetambara",
+   "adm": "AD-01522",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "NEW",
+     "New student"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NEW",
+     "New student"
+    ],
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NEW",
+     "New student"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Advika Chaudhary",
+   "adm": "AD-01358",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "INC",
+     "L-3 not done"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Anam Asif",
+   "adm": "AD-01334",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "INC",
+     "L-3 not done"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Aryan Arya",
+   "adm": "AD-01254",
+   "f": [
+    [
+     "English",
+     "Wed 29 Jul",
+     "INC",
+     "L-3 not done"
+    ]
+   ]
+  },
+  {
+   "c": "I",
+   "sec": "B",
+   "n": "Kavya",
+   "adm": "AD-01490",
+   "f": [
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A",
+   "n": "Aadya Singh",
+   "adm": "AD-00751",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A",
+   "n": "Achyut Chaudhary",
+   "adm": "AD-00471",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A",
+   "n": "Mayra Srivastava",
+   "adm": "AD-00436",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A",
+   "n": "Ratnabala Kuwar",
+   "adm": "AD-00355",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "B",
+   "n": "Advik Kumar",
+   "adm": "AD-01178",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "B",
+   "n": "Ali Ahmad Ruhaan",
+   "adm": "AD-00233",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "B",
+   "n": "Divyansi Priya",
+   "adm": "AD-00522",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "B",
+   "n": "Siddharth Singh",
+   "adm": "AD-01234",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "B",
+   "n": "11 students, Sr 38–48",
+   "adm": "—",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "BLANK",
+     "No verdict recorded on the sheet — cannot be established whether these notebooks were seen"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A+B",
+   "n": "17 unnamed defaulters",
+   "adm": "—",
+   "f": [
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "BLANK",
+     "Counted (8 not produced + 9 absent) but Defaulter Summary left empty — no names recorded"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A+B",
+   "n": "12 unnamed defaulters",
+   "adm": "—",
+   "f": [
+    [
+     "Information Technology",
+     "Fri 31 Jul",
+     "BLANK",
+     "Counted (5 incomplete + 7 absent) but Defaulter Summary left empty"
+    ]
+   ]
+  },
+  {
+   "c": "II",
+   "sec": "A+B",
+   "n": "12 unnamed defaulters",
+   "adm": "—",
+   "f": [
+    [
+     "Science",
+     "Sat 01 Aug",
+     "BLANK",
+     "Counted but Defaulter Summary left empty. Whole-class note: index not written in any notebook"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Priyank Raj",
+   "adm": "AD-00291",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Yug Singh",
+   "adm": "AD-00384",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Aarush Pahuja",
+   "adm": "AD-00746",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Kashish Kumari",
+   "adm": "AD-00974",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ],
+    [
+     "English",
+     "Tue 04 Aug",
+     "NC",
+     "Not checked by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Raghav Jha",
+   "adm": "AD-01060",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "English",
+     "Tue 04 Aug",
+     "NC",
+     "Not checked by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Hem Prakash",
+   "adm": "AD-01160",
+   "f": [
+    [
+     "English",
+     "Tue 04 Aug",
+     "NC",
+     "Not checked by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Riyaarth Gupta",
+   "adm": "AD-00730",
+   "f": [
+    [
+     "English",
+     "Tue 04 Aug",
+     "INC + NC",
+     "Incomplete AND not checked by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Riyansh Srivastava",
+   "adm": "AD-00839",
+   "f": [
+    [
+     "English",
+     "Tue 04 Aug",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Abhigya Sharma",
+   "adm": "AD-00966",
+   "f": [
+    [
+     "English",
+     "Tue 04 Aug",
+     "NC",
+     "Not checked by teacher"
+    ],
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Abhay Kumar",
+   "adm": "AD-01050",
+   "f": [
+    [
+     "English",
+     "Tue 04 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Advik Kumar",
+   "adm": "AD-00659",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Avnika Ranjan",
+   "adm": "AD-00797",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Roshani Kumari",
+   "adm": "AD-00969",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Shambhavi Singh",
+   "adm": "AD-01410",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Shreya Suman",
+   "adm": "AD-00137",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Tripurari Kumar",
+   "adm": "AD-01330",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Vaibhav Singh",
+   "adm": "AD-01376",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Aarav",
+   "adm": "AD-00712",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Aaruhi Yadav",
+   "adm": "AD-00888",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Adavya Parth",
+   "adm": "AD-01341",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "5 students",
+   "adm": "—",
+   "f": [
+    [
+     "General Knowledge",
+     "Fri 31 Jul",
+     "NS",
+     "Did not produce the GK book. Names are on the physical list handed to Ms. Prerna — not photographed"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Aazan Iftekhar",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Anmol Kumar Singh",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "AB",
+     "Long absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Aadhya Mallick",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Long absent, incomplete"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Md Tariq Imam",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Shreya",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Nishchay",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Prajjwal",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Akshay",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "B",
+   "n": "Ananya Kumari",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "B",
+   "n": "CS Abhiraj",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "B",
+   "n": "Ritik Raj",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Long absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Aryan",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Mrigank",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Nanditha",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Paras",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Raunak Raj",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Shresth",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A",
+   "n": "Vaibhav",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Arnav Banka",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Anika Singh",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Shashank Kumar",
+   "adm": "AD-01513",
+   "f": [
+    [
+     "English",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Kunj",
+   "adm": "",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Sakshi",
+   "adm": "",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Subhash Kumar Singh",
+   "adm": "AD-00200",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NC",
+     "Not checked"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "L-6 and answers left"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Mohammad Aminullah",
+   "adm": "AD-01507",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NC",
+     "Not checked"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "L-6 not done"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Shrish Raj Singh",
+   "adm": "AD-00153",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "INC",
+     "L-6 not checked"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "C",
+   "n": "Yash Prabhakar",
+   "adm": "AD-01343",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "INC",
+     "L-6 not checked"
+    ]
+   ]
+  },
+  {
+   "c": "IV",
+   "sec": "A+B",
+   "n": "63 students (all of IV A and IV B)",
+   "adm": "—",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NO-RUN",
+     "Never validated — Ms. Sumitra on leave four days, notebooks never produced"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Aarav Singh",
+   "adm": "AD-00052",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NC + INC",
+     "Incomplete work AND not checked by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Abhigyan Ray",
+   "adm": "AD-00420",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Amrit Raj",
+   "adm": "AD-01025",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Anas Khan",
+   "adm": "AD-01210",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Divyansh Kumar Purbey",
+   "adm": "AD-01053",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Ishra Shahab",
+   "adm": "AD-00024",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Khushi Kumari",
+   "adm": "AD-00965",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Mahreen",
+   "adm": "AD-00869",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A",
+   "n": "Sundaram Kumar",
+   "adm": "AD-00529",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "C",
+   "n": "Aryan Thakur",
+   "adm": "AD-01287",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "C",
+   "n": "Shreyan Rishav",
+   "adm": "AD-01422",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "C",
+   "n": "Eklavya",
+   "adm": "AD-01488",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "C",
+   "n": "Ujjwal Prakash Jha",
+   "adm": "AD-01370",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "B",
+   "n": "22 students (all of V B)",
+   "adm": "—",
+   "f": [
+    [
+     "Hindi",
+     "Wed 29 Jul",
+     "NO-RUN",
+     "Notebooks never handed to the validator by the subject teacher — every row blank"
+    ]
+   ]
+  },
+  {
+   "c": "V",
+   "sec": "A+B+C",
+   "n": "60 students unaccounted for",
+   "adm": "—",
+   "f": [
+    [
+     "Science",
+     "Mon 03 Aug",
+     "BLANK",
+     "Sheet records only 17 validated and 3 absent out of 80. No explanation given for the remaining 60"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "All 22 students of VI C",
+   "adm": "—",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "EVERY ROW marked INC — the whole section's GK work incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Aarohi Kumari",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (both books)"
+    ],
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index, date and page number missing"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Ali Shayaan Ahmad",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Archita Choudhary",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Bindhya Kaheri",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Ibrahim Faisal",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Work not done; also incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Language)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "MD Qamar Imam",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Work not done"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Sarthak Chaudhary",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Work not done"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Yusuf Mustafa",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Ayush Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Ansh Bhardwaj",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Ali Ahmad",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (both books)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Manya Dubey",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Vibash Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Kabir Kashyap",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Shreyanshi",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Pragya Mishra",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NC",
+     "Teacher not checked (Literature)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Harshvardhan Jha",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Language)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Anjeli Singh",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Yash Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Rishabh",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shourya",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Namansh",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shivam Raj",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not made at all"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Sammar",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "NC",
+     "NOTEBOOK NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shivansh",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index, date and page number missing"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Ganesh More",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index, date and page number missing"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Vansh Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shamvi",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not made at all"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Harikesh",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (English Language)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Ujjal",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Nikhil",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Jabhyata",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shanvi Kumari",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Literature)"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shreyas Narayan",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Language)"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Utpal Kashyap",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Nayan Kr. Jha",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Shivani Kumari",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Vidhi Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Adarsh Mandal",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "B",
+   "n": "Manasvi Mukund",
+   "adm": "",
+   "f": [
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Aryan Raj",
+   "adm": "AD-01500",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Kaushal Kishor",
+   "adm": "AD-01495",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "INDEX",
+     "Index not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Naman Kesan",
+   "adm": "AD-01359",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Punya Verma",
+   "adm": "AD-01366",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Riddhi Swaraj",
+   "adm": "AD-01307",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Literature)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Shraddha Shivani",
+   "adm": "AD-01361",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted (Language)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Bhumi Prashar",
+   "adm": "AD-01502",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Saurabh Kumar",
+   "adm": "AD-01258",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Piyush Kumar",
+   "adm": "AD-01333",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Ritika Kumari",
+   "adm": "AD-01492",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Shristi Kumari",
+   "adm": "AD-01430",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Ansh Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Naman Acharya",
+   "adm": "AD-01477",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Ankit Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Ayushi Prashar",
+   "adm": "AD-01335",
+   "f": [
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Faraz Ahmad",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Hiba Pervez",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Mokdul Islam",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Anistha Kumari",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Abhinav Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Anush Ray",
+   "adm": "",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Harsh Kumar",
+   "adm": "AD-01434",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "General Knowledge",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Aarohi Aman",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Mudassar Iqbal",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ],
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Anubhav Kr. Jha",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Divyansh Raj",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Haritesh Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Himakesh Shandilya",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Sahiyato Shaurav",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Jhanvi Kumari",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Karteek Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "MD Adudas",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Aarav Choudhary",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Aastha Kumari",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Antar Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Sagam Raj",
+   "adm": "",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Khushi Vats",
+   "adm": "",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "A",
+   "n": "Saket Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Aditya Narayan Singh",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NC",
+     "Teacher not checked (Literature)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Matifar",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NC",
+     "Teacher not checked (Literature)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Artha Kumari",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "INC",
+     "Work incomplete (Literature)"
+    ]
+   ]
+  },
+  {
+   "c": "VI",
+   "sec": "C",
+   "n": "Naman Karan",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "A",
+   "n": "All of VII A",
+   "adm": "—",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NO-RUN",
+     "Notebooks not submitted by Mr. Pradip Mahtha on the day; re-run arranged, report still awaited"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "A+B",
+   "n": "All of VII A and VII B",
+   "adm": "—",
+   "f": [
+    [
+     "Sanskrit",
+     "Fri 31 Jul",
+     "NO-RUN",
+     "Sanskrit notebooks not submitted for validation"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Abhinav Kumar",
+   "adm": "AD-00269",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Aditya",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Ansh",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Ansh Raj",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Mayank",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Prachi",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Rudra",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Samar",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Saurabh",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "B",
+   "n": "Vedant",
+   "adm": "",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Mani Ranjan",
+   "adm": "AD-01381",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Piyush Kumar",
+   "adm": "AD-00789",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Sundram Kumar",
+   "adm": "AD-01304",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Vidhi Sharma",
+   "adm": "AD-01395",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete; index page also missing"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Abhinav Bindra",
+   "adm": "AD-01515",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked; index page also missing"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Jasveer Kumar Paswan",
+   "adm": "AD-01412",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Keshav Raj",
+   "adm": "AD-00913",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Rakshit Kumar",
+   "adm": "AD-01485",
+   "f": [
+    [
+     "Mathematics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Jay Lalitya Kul",
+   "adm": "AD-00892",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Kirti Bhushan",
+   "adm": "AD-01326",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Pranat Kumar",
+   "adm": "AD-01426",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Rishikesh Kumar",
+   "adm": "AD-01257",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Saksham Kumar",
+   "adm": "AD-01450",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Tejas Satsangi",
+   "adm": "AD-01368",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "C",
+   "n": "Vishal Yadav",
+   "adm": "AD-01267",
+   "f": [
+    [
+     "Financial Literacy",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VII",
+   "sec": "A",
+   "n": "Sara Khan",
+   "adm": "",
+   "f": [
+    [
+     "Sanskrit/Urdu",
+     "Fri 31 Jul",
+     "AB",
+     "Absent long time"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "All 37 students of VIII A",
+   "adm": "—",
+   "f": [
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "EVERY ROW marked NS — the whole section produced no GK notebook. Advance-collection slot; the teacher did not hand them over"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Aaryan",
+   "adm": "AD-01288",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "INC",
+     "Work is incomplete"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Anushka Roy",
+   "adm": "AD-00147",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Indramani Prabhakar",
+   "adm": "AD-01029",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Manasvini",
+   "adm": "AD-00822",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Sara Irshad",
+   "adm": "AD-00536",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Sarthak Shiv",
+   "adm": "AD-01130",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Shashi Kumar",
+   "adm": "AD-01268",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete, marked with a cross"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Shaurya Kumar",
+   "adm": "AD-01054",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Vivek Kumar",
+   "adm": "AD-01041",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Wamique Hussain",
+   "adm": "AD-01464",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Yash Bhardwaj",
+   "adm": "AD-00736",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Balwant Singh",
+   "adm": "AD-00674",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Md Dilshan",
+   "adm": "AD-01529",
+   "f": [
+    [
+     "Science",
+     "Wed 29 Jul",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Aman Kumar Jha",
+   "adm": "",
+   "f": [
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "INC",
+     "Book cover torn"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Dipesh Kumar",
+   "adm": "AD-01520",
+   "f": [
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Raghav Ranjan",
+   "adm": "AD-01521",
+   "f": [
+    [
+     "General Knowledge",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Ananya Kumari",
+   "adm": "AD-00519",
+   "f": [
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Anushka Roy (Sanskrit)",
+   "adm": "AD-00147",
+   "f": [
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Aadarsh Choudhary",
+   "adm": "AD-01199",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Ajitesh Pankaj",
+   "adm": "AD-00551",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Aman Raj",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Durganand",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Manas Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Navika",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Pranav",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Prashant",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Ramya",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Rohan Kumar",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Sanskriti",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Vineet Vinayak",
+   "adm": "",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Ojas Narayan",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "B",
+   "n": "Shambhavi",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Md Fauzan Aadil",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Naweed",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Raghunandan",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Raiyan",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Vaibhav Roy",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Yusuf",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Ebaad",
+   "adm": "",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Mohammad",
+   "adm": "",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Prakash",
+   "adm": "",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Rashmi Rathi",
+   "adm": "",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "Shezal",
+   "adm": "",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Aradhya Nayan",
+   "adm": "AD-00625",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Nehal Gawra",
+   "adm": "AD-01483",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Parth Sarthi Mishra",
+   "adm": "AD-01414",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Vansh Gautam",
+   "adm": "AD-00702",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Vaishnavi Kumari",
+   "adm": "AD-01528",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Sanchay Prashar",
+   "adm": "AD-01503",
+   "f": [
+    [
+     "Information Technology",
+     "Wed 29 Jul",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Absent"
+    ],
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Kumar Piyush",
+   "adm": "AD-00908",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Kushagra Kumar",
+   "adm": "AD-01064",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Priyanshu Priyadarshi",
+   "adm": "AD-01362",
+   "f": [
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Shubham Chaudhary",
+   "adm": "AD-00608",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ],
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Ayush Yadav",
+   "adm": "",
+   "f": [
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Sudhanshu Pathak",
+   "adm": "AD-01128",
+   "f": [
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Yash Raj",
+   "adm": "AD-01038",
+   "f": [
+    [
+     "English",
+     "Fri 31 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Ritu Raj",
+   "adm": "AD-00737",
+   "f": [
+    [
+     "Biology",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Prince Kumar",
+   "adm": "AD-00972",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Rajas",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "C",
+   "n": "Abhijeet",
+   "adm": "",
+   "f": [
+    [
+     "Physics",
+     "Thu 30 Jul",
+     "NS",
+     "Not brought"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A+B",
+   "n": "88 students (all of IX A and IX B)",
+   "adm": "—",
+   "f": [
+    [
+     "English",
+     "Fri 31 Jul",
+     "NO-RUN",
+     "Never validated — Mr. Yowel on long leave, notebooks never produced"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "all",
+   "n": "100 students",
+   "adm": "—",
+   "f": [
+    [
+     "Sanskrit",
+     "Wed 29 Jul",
+     "BLANK",
+     "Sheet records only 12 validated of 114 with an empty defaulter box — 100 students have no verdict"
+    ]
+   ]
+  },
+  {
+   "c": "IX",
+   "sec": "A",
+   "n": "All of IX A",
+   "adm": "—",
+   "f": [
+    [
+     "Hindi / Urdu",
+     "Mon 03 Aug",
+     "NO-RUN",
+     "Subject teacher of IX A on leave — section not validated"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Ashika Singh",
+   "adm": "AD-00261",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index and page number missing"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Jyoti Kumari",
+   "adm": "AD-00055",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index and page number missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Md Abdullah",
+   "adm": "AD-00285",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index missing"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Md Shafique / Sharique Ali",
+   "adm": "AD-00426",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not signed (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Ritu",
+   "adm": "AD-00706",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Saurya Kumar",
+   "adm": "AD-00621",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "NC",
+     "NOTEBOOK NOT CHECKED by teacher"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Shlok Kumar",
+   "adm": "AD-01189",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Bhavya Thakur",
+   "adm": "AD-00224",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete work"
+    ],
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Shashank",
+   "adm": "AD-00113",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INC",
+     "Index, page number missing and incomplete work"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Sudhanshu Kumar",
+   "adm": "AD-00840",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete work"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Ankit Azad",
+   "adm": "AD-01207",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Date missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Index missing, not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Prem Raj",
+   "adm": "AD-00074",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Date missing"
+    ],
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index page and date missing"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Saanvi Thakur",
+   "adm": "AD-00622",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INDEX",
+     "Index page missing"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Utkarsh",
+   "adm": "AD-00474",
+   "f": [
+    [
+     "Mathematics",
+     "Wed 29 Jul",
+     "INC",
+     "Incomplete work"
+    ],
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Not checked and incomplete (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Harsh Raj",
+   "adm": "AD-01166",
+   "f": [
+    [
+     "Chemistry",
+     "Wed 29 Jul",
+     "INDEX",
+     "Date and page number missing"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Aayush Kumar",
+   "adm": "AD-00347",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Aryan Babu",
+   "adm": "AD-00469",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Md Ayaan Firoz",
+   "adm": "AD-00286",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Sariya Naaz",
+   "adm": "AD-00949",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not signed"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Shivam Kumar",
+   "adm": "AD-01305",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked, date missing (Economics and Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Gaurav Kumar Jayasawal",
+   "adm": "AD-00616",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Mitendeep",
+   "adm": "AD-00605",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography and Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Naitik Kumar",
+   "adm": "AD-00627",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Raj",
+   "adm": "AD-01209",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Political Science and Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Rishav Kumar",
+   "adm": "AD-00943",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Roushani Kumari",
+   "adm": "AD-00587",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Sumit Kumar",
+   "adm": "AD-00543",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics and Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Tanmay Kumar",
+   "adm": "AD-00062",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INDEX",
+     "Index, page number and date missing (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Anand Raj",
+   "adm": "AD-00231",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC + INC",
+     "Incomplete and not checked (Political Science)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Aditya Kumar Gupta",
+   "adm": "AD-00765",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "B",
+   "n": "Aayushman Sah",
+   "adm": "AD-01230",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INDEX",
+     "Date missing (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Anamika Raj",
+   "adm": "AD-00216",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Anant Prakash Saraf",
+   "adm": "AD-00107",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INDEX",
+     "Date missing (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Divesh Kumar Jha",
+   "adm": "AD-01231",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography, History, Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Himanshi Kumari",
+   "adm": "AD-00324",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography and Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Manas Roy",
+   "adm": "AD-00149",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Pratyaksh Kumar Mandal",
+   "adm": "AD-00566",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INDEX",
+     "Date and page number missing (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Ramya Chaudhary",
+   "adm": "AD-00928",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Shatakshi Roy",
+   "adm": "AD-00689",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "INC",
+     "Incomplete (History)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Shivam Kumar",
+   "adm": "AD-01109",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Geography, Political Science, Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "C",
+   "n": "Shubhangi",
+   "adm": "AD-00352",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NC",
+     "Not checked (Economics)"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "A",
+   "n": "Aqib Zeya",
+   "adm": "AD-01020",
+   "f": [
+    [
+     "Hindi / Urdu",
+     "Fri 31 Jul",
+     "NS",
+     "Urdu notebook not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "all",
+   "n": "77 students (all Hindi students of X A, X B, X C)",
+   "adm": "—",
+   "f": [
+    [
+     "Hindi",
+     "Fri 31 Jul",
+     "NO-RUN",
+     "Never validated — Mr. Nikhil absent, notebooks never produced"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "all",
+   "n": "31 students",
+   "adm": "—",
+   "f": [
+    [
+     "Physics",
+     "Sat 01 Aug → Mon 03 Aug",
+     "NS",
+     "Did not submit at the re-arranged validation. 55 of 86 validated"
+    ]
+   ]
+  },
+  {
+   "c": "X",
+   "sec": "all",
+   "n": "19 students",
+   "adm": "—",
+   "f": [
+    [
+     "Social Science",
+     "Thu 30 Jul",
+     "NS",
+     "Counted on the summary line as 'Absent' but marked NS on the sheet. Names appear in the row grid, not the defaulter box"
+    ]
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "sev": "critical",
+   "t": "Mr. Arko — one teacher accounts for the four worst results in the drive",
+   "p": [
+    "Class VIII General Knowledge, 30 July: all 37 VIII A students marked NS. This was an advance-collection slot — the subject had no period that day, so he was required to hand the notebooks over beforehand.",
+    "Class VIII Financial Literacy, 31 July: still not submitted tonight, three days late. Ms. Avni Kaushik sent a formal reminder today.",
+    "Class VI General Knowledge, 29 July: every single VI C row marked INC. This is the sheet Director Ma'am forwarded with 'Kindly check the details, sounds very alarming!'",
+    "Class VI and Class VII Financial Literacy: heavy incomplete and non-submission."
+   ],
+   "to": "One letter covering all four, with a firm submission date and a fresh validation date. He carried six of the nineteen advance-collection cases — the largest load of any teacher."
+  },
+  {
+   "sev": "critical",
+   "t": "Eleven whole sections were never validated — about 290 children",
+   "p": [
+    "Class X Hindi — X A, X B, X C, 77 students, Mr. Nikhil absent. A board class.",
+    "Class IX English — IX A, IX B, 88 students, Mr. Yowel on long leave.",
+    "Class IX Hindi/Urdu — IX A, teacher on leave (reported tonight).",
+    "Class IV Hindi — IV A, IV B, 63 students, Ms. Sumitra on four days' leave.",
+    "Class V Hindi — V B, 22 students, notebooks not given to the validator by Ms. Mamta.",
+    "Class VII Sanskrit — VII A and VII B, Dr. Sonali and Mr. Harikesh.",
+    "Class VII Mathematics — VII A, Mr. Pradip Mahtha (re-run arranged; report still awaited).",
+    "Class VIII General Knowledge — VIII A, Mr. Arko."
+   ],
+   "to": "Publish one catch-up date per section. Where the teacher is on extended leave, the class teacher should collect the notebooks and hand them to the validator directly — that is what removed the problem in Class X Physics."
+  },
+  {
+   "sev": "critical",
+   "t": "Teachers who did not check work the children had already done",
+   "p": [
+    "Mr. Prakash — around 25 Class X Social Science notebooks marked NC, concentrated in Economics and Geography, several also NOT SIGN or undated. Largest single concentration in the drive, in a board class.",
+    "Ms. Rimjhim — 13 VIII A Science students, written out longhand as NOT CHECKED.",
+    "Ms. Saloni — a full column of Class VI Science defaulters reading 'Not checked'.",
+    "Mr. Harikesh — Class VI Sanskrit: Sammar's notebook not checked, plus 18 students with index defects.",
+    "Also: Mr. Prakash's own Class X Chemistry counterpart (Saurya Kumar), Ms. Jaya (Md Tariq Imam, IV), Ms. Mamta and V Hindi (Ujjwal Jha, Aarav Singh), Ms. Saniya (five Class III English students)."
+   ],
+   "to": "This is the teacher defaulter list Director Ma'am asked for after PT-1. It is now evidenced student by student and can go to her as a single note."
+  },
+  {
+   "sev": "high",
+   "t": "Class VIII has five of eight validations with no report",
+   "p": [
+    "Financial Literacy, Mathematics, English, Social Science and Hindi have all fallen due with nothing received.",
+    "The validator, Mr. Diwas, was absent from day one. Ms. Chhumi covered 29 July, Ms. Avni has covered since — but no handover was recorded and one sheet is signed 'for' another person."
+   ],
+   "to": "Confirm in writing who is validating Class VIII, and get the five outstanding reports before Term I papers."
+  },
+  {
+   "sev": "high",
+   "t": "Class V — three validations missing and the Science sheet does not stand up",
+   "p": [
+    "Mathematics (30 Jul), General Knowledge (31 Jul) and English (1 Aug) have no report.",
+    "Tonight's Science sheet records 17 validated and 3 absent out of 80 — 60 students with no verdict and no explanation."
+   ],
+   "to": "Ask Mr. Saurabh for the three missing reports and for an explanation of the Science figures before that sheet is filed."
+  },
+  {
+   "sev": "high",
+   "t": "Two reports cannot be accepted as filled",
+   "p": [
+    "Class IX Sanskrit, 29 July: 12 validated out of 114, one non-submission, one absence, defaulter box empty. One hundred students have no verdict.",
+    "Class II Mathematics, 29 July: eleven II B rows blank; already rejected by Director Ma'am the same evening."
+   ],
+   "to": "Return both to the validator for completion rather than filing them."
+  },
+  {
+   "sev": "medium",
+   "t": "Counts that cannot be true",
+   "p": [
+    "On four of Mr. Aman's Class IX sheets and all five of Mr. Prashant's Class I sheets, 'Not produced' and 'Absent' carry the identical figure. They are different things and cannot be equal by coincidence nine times.",
+    "Class IX Hindi/Urdu tonight: 58 validated and 56 absent against a total of 114, with a whole section unvalidated.",
+    "Class V Hindi: 80 total, 37 validated, 1 absent — 42 unaccounted for.",
+    "Class X Social Science labels 19 non-submissions as 'Absent'."
+   ],
+   "to": "One line in the next briefing: 'not produced' counts notebooks, 'absent' counts children. They are not the same number."
+  },
+  {
+   "sev": "medium",
+   "t": "Chase tonight — six reports are due today and have not arrived",
+   "p": [
+    "Class II English, Class III Information Technology, Class IV General Knowledge, Class VII Information Technology, Class VIII Hindi, Class IX Social Science, Class X English.",
+    "Also outstanding: the Class VII A Mathematics re-run that Mr. Pradip Mahtha says he submitted, and the photographs of Mr. Farhan's Class III GK list currently held by Ms. Prerna."
+   ],
+   "to": "Ms. Prerna was assigned on 30 July to collect reports against the guidelines — this is her collection list."
+  }
+ ],
+ "quality": [
+  [
+   "Reports sent late, in batches",
+   "Class IV (four reports batched on 1 Aug), Class VI (all six of Ms. Ankita's 1–3 days late), Class VII (30 Jul sheets sent 1 Aug), Class IX Biology and English",
+   "The Office Order requires the signed sheet to be photographed and mailed the SAME DAY. A batch arriving three days later, out of order, with no class or subject in the subject line, is what prompted 'I am not able to understand the report.'"
+  ],
+  [
+   "Defaulter Summary box left empty",
+   "Class II GK, IT and Science; Class IX Sanskrit; Class X Social Science; Class VI GK (one line only)",
+   "Counts without names make follow-up impossible. That box exists so the defaulter list is produced during the drive rather than reconstructed afterwards — the single biggest fix made after PT-1."
+  ],
+  [
+   "Summary counts not filled at all",
+   "Class VI Financial Literacy, Mathematics and Information Technology",
+   "The named defaulters are there, but with no totals the sheet cannot be reconciled against the roster."
+  ],
+  [
+   "Sheet never photographed",
+   "Class X Chemistry and Mathematics (mail body only); Class III GK for III-B (list handed to Ms. Prerna before it could be photographed)",
+   "No signed, certified sheet on file means nothing can be audited or shown to management. Mr. Farhan flagged this himself and offered to submit photographs later — take him up on it."
+  ],
+  [
+   "Blank rows treated as done",
+   "Class II Maths (11 rows), Class V Hindi (all of V B), Class V Science (60 students), Class X Hindi (three sections), Class IV Hindi (IV A, IV B), Class IX English (IX A, IX B), Class IX Sanskrit (100 students)",
+   "A blank box is not a pass. Where a block of rows is blank, those notebooks were never seen, and the summary line should say so."
+  ],
+  [
+   "Two validators on one class, unannounced",
+   "Class VI — Mr. Abhaydeep Kumar (assigned) and Ms. Ankita Kerketta both reported, in parallel, with no handover note",
+   "Coverage happened to come out complete, but nobody knew who to chase, and Mr. Abhaydeep reported from a personal address rather than his school ID."
+  ],
+  [
+   "Substitutions not recorded",
+   "Class VIII — Mr. Diwas → Ms. Chhumi Hang Rai → Ms. Avni Kaushik. One sheet signed 'for' another person",
+   "Substitution is fine when a validator is away on CBSE cluster or other duty; an unannounced substitution means the certification signature no longer matches the assigned validator."
+  ],
+  [
+   "Mail routing",
+   "Class VIII Financial Literacy reminder addressed to Director Ma'am rather than to Mr. Arko",
+   "Director Ma'am's correction today: the mail should go to the teacher, keeping the coordinator and her in CC — the same rule as the drive mails themselves."
+  ],
+  [
+   "Validator shorthand that cannot be matched to a child",
+   "11 names written on sheets or in typed tables — 1 in Class I, 1 in Class IV, 9 in Class VI",
+   "Validators wrote a first name only or a spelling the ERP roster does not carry (e.g. 'Sammar', 'Namansh', 'Matifar', 'Jabhyata', 'Nayan Kr. Jha'). These findings are real but cannot be attached to a specific student, so they appear in the student list and not in the class charts. Full name as per the ERP, please."
+  ]
+ ],
+ "corrections": [
+  [
+   "Class III is NOT a blackout",
+   "Mr. Syed Farhan Ahmad reported on 29 July with five scanned sheets — Mathematics, Hindi Literature, Hindi Grammar, General Knowledge and English — and again on 31 July for GK III-B. He is one of the better reporters in the drive. An earlier internal check missed these because the mailbox search used the word 'valid', which does not match 'Validation' in Gmail."
+  ],
+  [
+   "Class VI is fully covered, not one-third covered",
+   "Ms. Ankita Kerketta sent three further reports on the night of 31 July (Science, Social Science, General Knowledge) and Mr. Abhaydeep Kumar sent English and Sanskrit/Urdu tonight. All eight due validations are in. The problem in Class VI is not coverage — it is what the sheets show."
+  ],
+  [
+   "Class X Physics was delivered, not missed",
+   "Mr. Santu could not run it on 1 August because Mr. Satyananda was absent, obtained a written commitment, and the signed sheet arrived tonight along with Class X Information Technology."
+  ],
+  [
+   "The roster has moved since the drive was planned",
+   "The plan was built on 859 students; the ERP pull on 3 August returns 861 active students in Classes I–X across the same 27 sections (Class I 53, II 61, III 57, IV 85, V 81, VI 101, VII 98, VIII 124, IX 115, X 86). The class charts use the fresh ERP roster, so a few children appear who were not on the printed validation sheets, and a few who have left no longer appear."
+  ]
+ ]
+}

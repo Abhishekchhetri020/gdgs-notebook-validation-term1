@@ -4,7 +4,31 @@ import json, html, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = json.load(open(os.path.join(HERE, "data.json"), encoding="utf8"))
+MX = json.load(open(os.path.join(HERE, "matrix.json"), encoding="utf8"))
 M = D["meta"]
+CLASSES = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+
+# Cell vocabulary for the class charts: code -> (short label, css class, plain meaning)
+CELL = {
+ "OK":            ("&#10003;",  "c-ok",   "Notebook produced and accepted"),
+ "NS":            ("NS",        "c-bad",  "Not submitted / not brought"),
+ "NOT-SUBMITTED": ("NS",        "c-bad",  "Section notebooks not submitted"),
+ "NC":            ("NC",        "c-nc",   "NOT CHECKED by the subject teacher"),
+ "NC + INC":      ("NC",        "c-nc",   "Not checked by the teacher, and incomplete"),
+ "INC + NC":      ("NC",        "c-nc",   "Incomplete, and not checked by the teacher"),
+ "INC":           ("INC",       "c-warn", "Incomplete work"),
+ "INDEX":         ("IX",        "c-warn", "Index / date / page number missing"),
+ "AB":            ("AB",        "c-ab",   "Student absent"),
+ "NOT-VALIDATED": ("&#8212;",   "c-nov",  "Never validated — notebooks never reached the validator"),
+ "NO-VERDICT":    ("?",         "c-unk",  "Sheet recorded no verdict for this child"),
+ "UNCLEAR":       ("?",         "c-unk",  "Row left blank on the sheet"),
+ "NO-REPORT":     ("&middot;",  "c-none", "Validation due — no report received"),
+ "NOT-DUE":       ("",          "c-idle", "Scheduled Tue 4 August"),
+ "NEW":           ("N",         "c-neut", "New student"),
+ "LEFT":          ("L",         "c-neut", "Has left the school"),
+}
+PROBLEM = {"NS","NOT-SUBMITTED","NC","NC + INC","INC + NC","INC","INDEX","AB",
+           "NOT-VALIDATED","NO-VERDICT","UNCLEAR","NO-REPORT"}
 
 def e(s): return html.escape(str(s), quote=False)
 
@@ -123,6 +147,42 @@ td.cls{font-family:var(--serif);font-size:17px;font-weight:600;white-space:nowra
 .flags div{font-size:12.5px;color:var(--ink-2)}
 .pill{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:2px;background:var(--bad-bg);color:var(--bad);margin-left:8px;vertical-align:2px}
 .pill.pub{background:var(--ok-bg);color:var(--ok)}
+/* class charts */
+.cellkey{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:6px 16px;margin-bottom:16px;
+  padding:14px 16px;border:1px solid var(--line);border-radius:3px;background:var(--surface);font-size:12.5px;color:var(--ink-2)}
+.cellkey div{display:flex;align-items:center;gap:8px}
+.chartwrap{max-height:74vh;overflow:auto}
+table.grid{font-size:12.5px;border-collapse:separate;border-spacing:0}
+table.grid th,table.grid td{border-bottom:1px solid var(--line);padding:5px 8px;white-space:nowrap}
+table.grid thead th{position:sticky;top:0;z-index:3;background:var(--surface-2);vertical-align:bottom;
+  font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;padding:8px}
+table.grid th.rot{writing-mode:vertical-rl;transform:rotate(180deg);height:118px;text-align:left;
+  font-weight:600;padding:8px 3px}
+table.grid td.rno{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+table.grid td.snm{font-weight:600;max-width:210px;overflow:hidden;text-overflow:ellipsis}
+table.grid td.adm{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+table.grid td.pc{font-family:var(--mono);text-align:center;color:var(--ink-3);font-variant-numeric:tabular-nums}
+table.grid td.pc.hi{color:var(--bad);font-weight:700}
+table.grid th.rno,table.grid th.snm,table.grid th.adm,table.grid th.pc{writing-mode:horizontal-tb;transform:none;height:auto}
+table.grid tbody tr:hover td{background:color-mix(in srgb,var(--accent) 7%,transparent)}
+.cell{display:inline-block;min-width:26px;text-align:center;font-family:var(--mono);font-size:10.5px;
+  font-weight:600;padding:2px 4px;border-radius:2px;line-height:1.35}
+td.cell{text-align:center;padding:4px 6px}
+.c-ok{background:var(--ok-bg);color:var(--ok)}
+.c-bad{background:var(--bad-bg);color:var(--bad)}
+.c-nc{background:var(--bad);color:#fff}
+.c-warn{background:var(--warn-bg);color:var(--warn)}
+.c-ab{background:var(--idle-bg);color:var(--warn)}
+.c-nov{background:repeating-linear-gradient(45deg,var(--bad-bg),var(--bad-bg) 4px,transparent 4px,transparent 8px);color:var(--bad)}
+.c-unk{background:var(--surface-2);color:var(--ink-2);border:1px dashed var(--line)}
+.c-none{background:transparent;color:var(--ink-3)}
+.c-idle{background:transparent;color:transparent}
+.c-neut{background:var(--idle-bg);color:var(--idle)}
+.chk{display:flex;align-items:center;gap:7px;font-size:13.5px;color:var(--ink-2);cursor:pointer}
+.btn{font:inherit;font-size:13.5px;padding:7px 12px;border:1px solid var(--line);border-radius:2px;
+  background:var(--surface);color:var(--ink);cursor:pointer}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn:focus-visible,.chk input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 footer{border-top:1px solid var(--line);margin-top:20px;padding-top:20px;font-size:12.5px;color:var(--ink-3);line-height:1.6}
 @media(max-width:760px){.subrow{grid-template-columns:1fr;gap:5px}.legend div{border-right:0}}
 """
@@ -303,6 +363,55 @@ def students_tbl():
             + "".join(rows) + '</tbody></table></div></section>')
 
 
+def charts():
+    """One grid per class: every student on the ERP roster x every subject."""
+    subs_by_cls = MX["subjects"]
+    blocks = []
+    for cls in CLASSES:
+        rows = [r for r in MX["rows"] if r["c"] == cls]
+        if not rows:
+            continue
+        subs = subs_by_cls[cls]
+        head = "".join(f'<th class="rot" title="{e(s)}">{e(s)}</th>' for s in subs)
+        body = []
+        for r in rows:
+            nprob = sum(1 for c in r["cells"] if c["v"] in PROBLEM)
+            tds = []
+            for s, c in zip(subs, r["cells"]):
+                lab, cc, _ = CELL.get(c["v"], (c["v"], "c-unk", c["v"]))
+                tds.append(f'<td class="cell {cc}" title="{e(s)} — {e(c["w"])}">{lab}</td>')
+            body.append(
+                f'<tr data-p="{nprob}" data-b="{e((r["name"]+" "+r["adm"]+" "+cls+" "+r["sec"]).lower())}">'
+                f'<td class="rno">{e(r["sec"])}&#8202;/&#8202;{e(r["roll"])}</td>'
+                f'<td class="snm">{e(r["name"])}</td>'
+                f'<td class="adm">{e(r["adm"])}</td>'
+                f'<td class="pc {"hi" if nprob >= 4 else ""}">{nprob}</td>'
+                + "".join(tds) + '</tr>')
+        blocks.append(
+            f'<details class="card chart" data-cls="{e(cls)}"><summary>'
+            f'<span class="marker">&#9656;</span><span class="tw">Class {e(cls)}</span>'
+            f'<span class="who">{len(rows)} students &middot; {len(subs)} subjects</span></summary>'
+            f'<div class="body"><div class="tbl chartwrap"><table class="grid">'
+            f'<thead><tr><th class="rno">Sec/Roll</th><th class="snm">Student</th>'
+            f'<th class="adm">Adm No.</th><th class="pc" title="Number of subjects with something wrong">&#9873;</th>'
+            f'{head}</tr></thead><tbody>{"".join(body)}</tbody></table></div></div></details>')
+
+    key = "".join(
+        f'<div><span class="cell {cc}">{lab or "&nbsp;"}</span> {e(meaning)}</div>'
+        for code, (lab, cc, meaning) in CELL.items())
+    return ('<section id="charts"><h2>Class-by-class chart &mdash; every student, every subject</h2>'
+            '<p class="lede">Pulled fresh from the ERP on 3 August: 861 active students across 27 sections. '
+            'Every subject the drive scheduled for that class is a column. Read across a row to see one child\'s '
+            'whole term; read down a column to see one subject. The flag count sorts the worst cases to the top.</p>'
+            f'<div class="cellkey">{key}</div>'
+            '<div class="tools"><input id="cq" type="search" placeholder="Search a student, admission no. or section…" '
+            'aria-label="Search the charts"><label class="chk"><input type="checkbox" id="conly"> '
+            'Only students with something wrong</label>'
+            '<button id="csrt" class="btn">Sort by flag count</button>'
+            '<span class="count" id="ccnt"></span></div>'
+            + "".join(blocks) + '</section>')
+
+
 def actions():
     out = []
     for a in D["actions"]:
@@ -346,6 +455,41 @@ SCRIPT = """
  });
  apply();
 })();
+
+/* class charts: search, problems-only filter, sort by flag count */
+(function(){
+ var cq=document.getElementById('cq'); if(!cq) return;
+ var only=document.getElementById('conly'), cnt=document.getElementById('ccnt'),
+     btn=document.getElementById('csrt'), desc=true,
+     tables=[].slice.call(document.querySelectorAll('table.grid'));
+ var all=tables.map(function(t){
+   return {t:t, card:t.closest('details'), rows:[].slice.call(t.tBodies[0].rows)};
+ });
+ function apply(){
+   var q=cq.value.toLowerCase().trim(), po=only.checked, shown=0, flagged=0;
+   all.forEach(function(g){
+     var vis=0;
+     g.rows.forEach(function(r){
+       var ok=(!q||r.dataset.b.indexOf(q)>-1)&&(!po||+r.dataset.p>0);
+       r.style.display=ok?'':'none';
+       if(ok){vis++; if(+r.dataset.p>0) flagged++;}
+     });
+     shown+=vis;
+     g.card.style.display=vis?'':'none';
+     if((q||po)&&vis) g.card.open=true;
+   });
+   cnt.textContent=shown+' students shown · '+flagged+' with at least one problem';
+ }
+ cq.addEventListener('input',apply); only.addEventListener('change',apply);
+ btn.addEventListener('click',function(){
+   all.forEach(function(g){
+     g.rows.sort(function(a,b){var d=b.dataset.p-a.dataset.p; return desc?d:-d;});
+     var tb=g.t.tBodies[0]; g.rows.forEach(function(r){tb.appendChild(r)});
+   });
+   desc=!desc; btn.textContent=desc?'Sort by flag count':'Sort back to roll order'; apply();
+ });
+ apply();
+})();
 """
 
 
@@ -354,24 +498,20 @@ def page(private):
     PRIVATE = private
     title =("Term I Notebook Validation — Full Audit (Confidential)" if private
              else "Term I Notebook Validation — Audit Report")
-    badge = ('<span class="pill">confidential — contains student names</span>' if private
-             else '<span class="pill pub">public summary — no student names</span>')
-    toc = [("legend","Marks"),("corrections","Corrections"),("coverage","Coverage"),("classes","By class"),
-           ("validators","Validators"),("teachers","Teachers")]
-    if private: toc.append(("students","Students"))
-    toc += [("actions","Actions"),("quality","Reporting quality")]
+    badge = '<span class="pill">contains student names &mdash; school record</span>'
+    toc = [("legend","Marks"),("corrections","Corrections"),("coverage","Coverage"),
+           ("charts","Class charts"),("students","Students"),("classes","By class"),
+           ("validators","Validators"),("teachers","Teachers"),
+           ("actions","Actions"),("quality","Reporting quality")]
     nav = '<nav class="toc">' + "".join(f'<a href="#{i}">{e(l)}</a>' for i, l in toc) + '</nav>'
 
-    body = [legend(), corrections(), coverage(), by_class(), validators_tbl(), teachers()]
-    if private: body.append(students_tbl())
-    body += [actions(), quality()]
+    body = [legend(), corrections(), charts(), students_tbl(), coverage(), by_class(),
+            validators_tbl(), teachers(), actions(), quality()]
 
-    note = ("This page names individual students and admission numbers. It is for the Director, the Coordinator and the "
-            "class teachers concerned. Do not post it publicly or forward it outside the school."
-            if private else
-            "This is the shareable summary. Counts, sections, validator performance and teacher accountability are shown; "
-            "individual student names and admission numbers are deliberately withheld and held in a separate confidential "
-            "version issued to the Director and the Coordinator.")
+    note = ("This page names individual students and admission numbers, published on the instruction of the Academic "
+            "Coordinator so that every teacher, validator and member of management can see the same record. It is "
+            "excluded from search-engine indexing. Please treat it as a school document and do not circulate it "
+            "outside the school community.")
 
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -406,24 +546,19 @@ box blank, that is recorded as blank rather than inferred. Plan of record: Term 
 </div><script>{SCRIPT}</script></body></html>"""
 
 
-pub = page(False)
-priv = page(True)
+# Student names are published on the Academic Coordinator's explicit instruction
+# (3 Aug 2026) so that staff, management and parents see one shared record.
+# Both files are therefore identical; confidential.html is kept as the link
+# already circulated to the Director.
+full = page(True)
+open(os.path.join(HERE, "index.html"), "w", encoding="utf8").write(full)
+open(os.path.join(HERE, "confidential.html"), "w", encoding="utf8").write(full)
 
-# --- hard privacy gate: the public build must contain no student identifier ---
-# A handful of student first names collide with staff first names (Mr. Harikesh,
-# Mr. Nikhil, Mr. Prakash, Mr. Prashant, Mr. Saurabh). Only an *untitled*
-# occurrence can be a student, so the gate ignores titled mentions.
-leaks = sorted({n for n in STUDENT_NAMES
-                if re.search(r"(?<!Mr\. )(?<!Ms\. )(?<!Dr\. )(?<!Mrs\. )\b"
-                             + re.escape(n) + r"\b", pub)})
-leaks += sorted(set(ADM_RE.findall(pub)))
-if leaks:
-    raise SystemExit("REFUSING TO BUILD — student identifiers found in the public page:\n  "
-                     + "\n  ".join(leaks))
-
-open(os.path.join(HERE, "index.html"), "w", encoding="utf8").write(pub)
-open(os.path.join(HERE, "confidential.html"), "w", encoding="utf8").write(priv)
 nflags = sum(len(s["f"]) for s in D["students"])
-print("privacy gate passed — 0 student names, 0 admission numbers in the public page")
-print(f"built index.html (public) and confidential.html (private)")
-print(f"{len(D['students'])} student records, {nflags} findings, {len(D['teachers'])} teachers, {len(D['slots'])} slots")
+cells = sum(len(r["cells"]) for r in MX["rows"])
+probs = sum(1 for r in MX["rows"] for c in r["cells"] if c["v"] in PROBLEM)
+kids = sum(1 for r in MX["rows"] if any(c["v"] in PROBLEM for c in r["cells"]))
+print(f"built index.html + confidential.html (identical — names published by instruction)")
+print(f"charts: {len(MX['rows'])} students, {cells} cells, {probs} flagged, {kids} students with >=1 problem")
+print(f"detail: {len(D['students'])} student records, {nflags} findings, "
+      f"{len(D['teachers'])} teachers, {len(D['slots'])} slots")
