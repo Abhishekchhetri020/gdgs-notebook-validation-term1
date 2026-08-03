@@ -1,0 +1,3 @@
+# Never publish: these contain student names and admission numbers
+data.json
+confidential.html
