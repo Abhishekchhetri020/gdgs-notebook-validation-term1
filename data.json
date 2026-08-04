@@ -1079,7 +1079,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "I",
@@ -1093,7 +1094,8 @@
      "NS",
      "Long absent"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "I",
@@ -1107,7 +1109,8 @@
      "NS",
      "Not submitted today (absent)"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "I",
@@ -1133,7 +1136,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "I",
@@ -1153,7 +1157,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "I",
@@ -1205,7 +1210,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "I",
@@ -1237,7 +1243,8 @@
      "NS",
      "Long absent"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "I",
@@ -1251,7 +1258,8 @@
      "NEW",
      "New student"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "I",
@@ -1271,7 +1279,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "I",
@@ -1291,13 +1300,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "I",
    "sec": "A",
    "n": "Kartik Aryan",
-   "adm": "AD-00473",
+   "adm": "AD-00973",
    "f": [
     [
      "Science",
@@ -1305,7 +1315,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "I",
@@ -1319,7 +1330,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "I",
@@ -1345,13 +1357,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "I",
    "sec": "A",
    "n": "Rishav",
-   "adm": "AD-01163",
+   "adm": "AD-00665",
    "f": [
     [
      "General Knowledge",
@@ -1359,11 +1372,12 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "I",
-   "sec": "A",
+   "sec": "B",
    "n": "Aaruhi Kumari",
    "adm": "AD-01372",
    "f": [
@@ -1373,7 +1387,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "I",
@@ -1413,7 +1428,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "I",
@@ -1427,7 +1443,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "I",
@@ -1479,7 +1496,8 @@
      "NEW",
      "New student"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "I",
@@ -1493,7 +1511,8 @@
      "INC",
      "L-3 not done"
     ]
-   ]
+   ],
+   "roll": "6"
   },
   {
    "c": "I",
@@ -1507,7 +1526,8 @@
      "INC",
      "L-3 not done"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "I",
@@ -1521,7 +1541,8 @@
      "INC",
      "L-3 not done"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "I",
@@ -1535,7 +1556,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "II",
@@ -1549,7 +1571,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "II",
@@ -1563,7 +1586,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "II",
@@ -1577,7 +1601,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "II",
@@ -1591,7 +1616,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "II",
@@ -1605,7 +1631,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "II",
@@ -1619,7 +1646,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "II",
@@ -1633,7 +1661,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "12"
   },
   {
    "c": "II",
@@ -1647,7 +1676,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "II",
@@ -1723,7 +1753,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "III",
@@ -1743,7 +1774,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "III",
@@ -1757,7 +1789,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "III",
@@ -1783,7 +1816,8 @@
      "NC",
      "Not checked by teacher"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "III",
@@ -1803,7 +1837,8 @@
      "NC",
      "Not checked by teacher"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "III",
@@ -1817,7 +1852,8 @@
      "NC",
      "Not checked by teacher"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "III",
@@ -1831,7 +1867,8 @@
      "INC + NC",
      "Incomplete AND not checked by teacher"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "III",
@@ -1845,7 +1882,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "III",
@@ -1865,7 +1903,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "III",
@@ -1885,7 +1924,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "III",
@@ -1899,7 +1939,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "III",
@@ -1913,7 +1954,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "III",
@@ -1927,7 +1969,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "III",
@@ -1941,7 +1984,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "III",
@@ -1955,7 +1999,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "III",
@@ -1969,7 +2014,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "III",
@@ -1983,7 +2029,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "III",
@@ -1997,7 +2044,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "III",
@@ -2011,7 +2059,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "III",
@@ -2025,7 +2074,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "III",
@@ -2045,7 +2095,7 @@
    "c": "IV",
    "sec": "A",
    "n": "Aazan Iftekhar",
-   "adm": "",
+   "adm": "AD-01394",
    "f": [
     [
      "English",
@@ -2065,13 +2115,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Anmol Kumar Singh",
-   "adm": "",
+   "adm": "AD-00138",
    "f": [
     [
      "English",
@@ -2091,13 +2142,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Aadhya Mallick",
-   "adm": "",
+   "adm": "AD-00205",
    "f": [
     [
      "English",
@@ -2117,13 +2169,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Md Tariq Imam",
-   "adm": "",
+   "adm": "AD-01144",
    "f": [
     [
      "Science",
@@ -2131,13 +2184,14 @@
      "NC",
      "NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Shreya",
-   "adm": "",
+   "adm": "AD-01201",
    "f": [
     [
      "English",
@@ -2151,13 +2205,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Nishchay",
-   "adm": "",
+   "adm": "AD-00693",
    "f": [
     [
      "English",
@@ -2165,13 +2220,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "IV",
    "sec": "A",
    "n": "Prajjwal",
-   "adm": "",
+   "adm": "AD-00538",
    "f": [
     [
      "English",
@@ -2179,13 +2235,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Akshay",
-   "adm": "",
+   "adm": "AD-00173",
    "f": [
     [
      "English",
@@ -2193,13 +2250,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "IV",
    "sec": "B",
    "n": "Ananya Kumari",
-   "adm": "",
+   "adm": "AD-01233",
    "f": [
     [
      "English",
@@ -2213,13 +2271,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "IV",
    "sec": "B",
    "n": "CS Abhiraj",
-   "adm": "",
+   "adm": "AD-01158",
    "f": [
     [
      "English",
@@ -2233,13 +2292,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "IV",
    "sec": "B",
    "n": "Ritik Raj",
-   "adm": "",
+   "adm": "AD-00158",
    "f": [
     [
      "Science",
@@ -2247,13 +2307,14 @@
      "NS",
      "Long absent"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Aryan",
-   "adm": "",
+   "adm": "AD-00139",
    "f": [
     [
      "English",
@@ -2261,13 +2322,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Mrigank",
-   "adm": "",
+   "adm": "AD-01215",
    "f": [
     [
      "English",
@@ -2275,13 +2337,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Nanditha",
-   "adm": "",
+   "adm": "AD-00006",
    "f": [
     [
      "English",
@@ -2289,13 +2352,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Paras",
-   "adm": "",
+   "adm": "AD-00819",
    "f": [
     [
      "English",
@@ -2303,13 +2367,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "IV",
    "sec": "C",
    "n": "Raunak Raj",
-   "adm": "",
+   "adm": "AD-01437",
    "f": [
     [
      "English",
@@ -2323,13 +2388,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "IV",
-   "sec": "A",
+   "sec": "B",
    "n": "Shresth",
-   "adm": "",
+   "adm": "AD-01043",
    "f": [
     [
      "English",
@@ -2337,7 +2403,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "IV",
@@ -2389,7 +2456,7 @@
    "c": "IV",
    "sec": "C",
    "n": "Anika Singh",
-   "adm": "",
+   "adm": "AD-01309",
    "f": [
     [
      "Science",
@@ -2397,7 +2464,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "IV",
@@ -2411,13 +2479,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "IV",
    "sec": "C",
    "n": "Kunj",
-   "adm": "",
+   "adm": "AD-01306",
    "f": [
     [
      "Hindi",
@@ -2425,13 +2494,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "IV",
    "sec": "C",
    "n": "Sakshi",
-   "adm": "",
+   "adm": "AD-00371",
    "f": [
     [
      "Hindi",
@@ -2439,7 +2509,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "IV",
@@ -2459,7 +2530,8 @@
      "INC",
      "L-6 and answers left"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "IV",
@@ -2479,7 +2551,8 @@
      "INC",
      "L-6 not done"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "IV",
@@ -2493,7 +2566,8 @@
      "INC",
      "L-6 not checked"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "IV",
@@ -2507,7 +2581,8 @@
      "INC",
      "L-6 not checked"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "IV",
@@ -2535,7 +2610,8 @@
      "NC + INC",
      "Incomplete work AND not checked by teacher"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "V",
@@ -2549,7 +2625,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "V",
@@ -2563,7 +2640,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "V",
@@ -2577,7 +2655,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "V",
@@ -2591,7 +2670,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "V",
@@ -2605,7 +2685,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "V",
@@ -2619,7 +2700,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "V",
@@ -2633,7 +2715,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "V",
@@ -2647,7 +2730,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "V",
@@ -2661,7 +2745,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "V",
@@ -2675,7 +2760,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "V",
@@ -2689,7 +2775,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "V",
@@ -2703,7 +2790,8 @@
      "NC",
      "NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "V",
@@ -2751,7 +2839,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Aarohi Kumari",
-   "adm": "",
+   "adm": "AD-01015",
    "f": [
     [
      "Science",
@@ -2771,13 +2859,14 @@
      "INDEX",
      "Index, date and page number missing"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Ali Shayaan Ahmad",
-   "adm": "",
+   "adm": "AD-00236",
    "f": [
     [
      "Science",
@@ -2791,13 +2880,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Archita Choudhary",
-   "adm": "",
+   "adm": "AD-00472",
    "f": [
     [
      "Science",
@@ -2823,13 +2913,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Bindhya Kaheri",
-   "adm": "",
+   "adm": "AD-00810",
    "f": [
     [
      "Science",
@@ -2843,13 +2934,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "12"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Ibrahim Faisal",
-   "adm": "",
+   "adm": "AD-00806",
    "f": [
     [
      "Science",
@@ -2875,7 +2967,8 @@
      "NS",
      "Not submitted (Language)"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "VI",
@@ -2901,7 +2994,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Sarthak Chaudhary",
-   "adm": "",
+   "adm": "AD-00836",
    "f": [
     [
      "Science",
@@ -2933,13 +3026,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "31"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Yusuf Mustafa",
-   "adm": "",
+   "adm": "AD-01019",
    "f": [
     [
      "Science",
@@ -2965,7 +3059,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "34"
   },
   {
    "c": "VI",
@@ -3017,7 +3112,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Ali Ahmad",
-   "adm": "",
+   "adm": "AD-00236",
    "f": [
     [
      "English",
@@ -3025,13 +3120,14 @@
      "NS",
      "Not submitted (both books)"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Manya Dubey",
-   "adm": "",
+   "adm": "AD-00524",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3039,7 +3135,8 @@
      "INDEX",
      "Index not completed"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "VI",
@@ -3065,7 +3162,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Kabir Kashyap",
-   "adm": "",
+   "adm": "AD-00390",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3091,13 +3188,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Shreyanshi",
-   "adm": "",
+   "adm": "AD-00187",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3105,13 +3203,14 @@
      "INDEX",
      "Index not completed"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Pragya Mishra",
-   "adm": "",
+   "adm": "AD-00422",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3125,7 +3224,8 @@
      "NC",
      "Teacher not checked (Literature)"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "VI",
@@ -3177,7 +3277,7 @@
    "c": "VI",
    "sec": "B",
    "n": "Yash Kumar",
-   "adm": "",
+   "adm": "AD-01027",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3197,13 +3297,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "34"
   },
   {
    "c": "VI",
-   "sec": "B",
+   "sec": "C",
    "n": "Rishabh",
-   "adm": "",
+   "adm": "AD-01391",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3211,7 +3312,8 @@
      "INDEX",
      "Index not completed"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "VI",
@@ -3245,7 +3347,7 @@
    "c": "VI",
    "sec": "B",
    "n": "Shivam Raj",
-   "adm": "",
+   "adm": "AD-00328",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3259,7 +3361,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "VI",
@@ -3273,13 +3376,14 @@
      "NC",
      "NOTEBOOK NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "VI",
    "sec": "B",
    "n": "Shivansh",
-   "adm": "",
+   "adm": "AD-00126",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3287,13 +3391,14 @@
      "INDEX",
      "Index, date and page number missing"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "VI",
    "sec": "B",
    "n": "Ganesh More",
-   "adm": "",
+   "adm": "AD-00583",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3301,13 +3406,14 @@
      "INDEX",
      "Index, date and page number missing"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "VI",
    "sec": "B",
    "n": "Vansh Kumar",
-   "adm": "",
+   "adm": "AD-00989",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3315,7 +3421,8 @@
      "INDEX",
      "Index not completed"
     ]
-   ]
+   ],
+   "roll": "32"
   },
   {
    "c": "VI",
@@ -3335,7 +3442,7 @@
    "c": "VI",
    "sec": "B",
    "n": "Harikesh",
-   "adm": "",
+   "adm": "AD-00056",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -3349,7 +3456,8 @@
      "NS",
      "Not submitted (English Language)"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "VI",
@@ -3369,7 +3477,7 @@
    "c": "VI",
    "sec": "B",
    "n": "Nikhil",
-   "adm": "",
+   "adm": "AD-00044",
    "f": [
     [
      "English",
@@ -3377,7 +3485,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "VI",
@@ -3397,7 +3506,7 @@
    "c": "VI",
    "sec": "B",
    "n": "Shanvi Kumari",
-   "adm": "",
+   "adm": "AD-00133",
    "f": [
     [
      "English",
@@ -3423,13 +3532,14 @@
      "NC",
      "NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "VI",
    "sec": "B",
    "n": "Shreyas Narayan",
-   "adm": "",
+   "adm": "AD-00228",
    "f": [
     [
      "English",
@@ -3449,13 +3559,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "VI",
    "sec": "B",
    "n": "Utpal Kashyap",
-   "adm": "",
+   "adm": "AD-00903",
    "f": [
     [
      "English",
@@ -3469,7 +3580,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "31"
   },
   {
    "c": "VI",
@@ -3515,9 +3627,9 @@
   },
   {
    "c": "VI",
-   "sec": "B",
+   "sec": "C",
    "n": "Adarsh Mandal",
-   "adm": "",
+   "adm": "AD-01369",
    "f": [
     [
      "Science",
@@ -3525,7 +3637,8 @@
      "NC",
      "NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "VI",
@@ -3577,7 +3690,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "VI",
@@ -3609,7 +3723,8 @@
      "INDEX",
      "Index not completed"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "VI",
@@ -3641,7 +3756,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "VI",
@@ -3667,7 +3783,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "VI",
@@ -3711,7 +3828,8 @@
      "NS",
      "Not submitted (Literature)"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "VI",
@@ -3749,7 +3867,8 @@
      "NS",
      "Not submitted (Language)"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "VI",
@@ -3793,7 +3912,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "45"
   },
   {
    "c": "VI",
@@ -3819,7 +3939,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "VI",
@@ -3845,7 +3966,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "VI",
@@ -3865,7 +3987,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "VI",
@@ -3891,13 +4014,14 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "VI",
    "sec": "C",
    "n": "Ansh Kumar",
-   "adm": "",
+   "adm": "AD-01475",
    "f": [
     [
      "Social Science",
@@ -3923,7 +4047,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "VI",
@@ -3949,13 +4074,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "VI",
    "sec": "C",
    "n": "Ankit Kumar",
-   "adm": "",
+   "adm": "AD-01316",
    "f": [
     [
      "Mathematics",
@@ -3969,7 +4095,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "VI",
@@ -3995,13 +4122,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "12"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Faraz Ahmad",
-   "adm": "",
+   "adm": "AD-00948",
    "f": [
     [
      "Financial Literacy",
@@ -4009,13 +4137,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Hiba Pervez",
-   "adm": "",
+   "adm": "AD-01292",
    "f": [
     [
      "Financial Literacy",
@@ -4023,7 +4152,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "VI",
@@ -4055,9 +4185,9 @@
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "C",
    "n": "Abhinav Kumar",
-   "adm": "",
+   "adm": "AD-01323",
    "f": [
     [
      "Financial Literacy",
@@ -4065,7 +4195,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "VI",
@@ -4101,7 +4232,7 @@
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "C",
    "n": "Harsh Kumar",
    "adm": "AD-01434",
    "f": [
@@ -4117,7 +4248,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "VI",
@@ -4137,7 +4269,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Mudassar Iqbal",
-   "adm": "",
+   "adm": "AD-00942",
    "f": [
     [
      "Mathematics",
@@ -4157,13 +4289,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Anubhav Kr. Jha",
-   "adm": "",
+   "adm": "AD-01090",
    "f": [
     [
      "Mathematics",
@@ -4177,13 +4310,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "5"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Divyansh Raj",
-   "adm": "",
+   "adm": "AD-00523",
    "f": [
     [
      "Mathematics",
@@ -4191,7 +4325,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "VI",
@@ -4209,9 +4344,9 @@
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Himakesh Shandilya",
-   "adm": "",
+   "adm": "AD-00117",
    "f": [
     [
      "Mathematics",
@@ -4219,7 +4354,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "VI",
@@ -4265,7 +4401,7 @@
    "c": "VI",
    "sec": "A",
    "n": "Karteek Kumar",
-   "adm": "",
+   "adm": "AD-00961",
    "f": [
     [
      "Information Technology",
@@ -4279,7 +4415,8 @@
      "NC + INC",
      "Not checked and incomplete"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "VI",
@@ -4297,9 +4434,9 @@
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "C",
    "n": "Aarav Choudhary",
-   "adm": "",
+   "adm": "AD-01383",
    "f": [
     [
      "Information Technology",
@@ -4313,13 +4450,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "C",
    "n": "Aastha Kumari",
-   "adm": "",
+   "adm": "AD-01250",
    "f": [
     [
      "Information Technology",
@@ -4333,7 +4471,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "VI",
@@ -4365,9 +4504,9 @@
   },
   {
    "c": "VI",
-   "sec": "A",
+   "sec": "B",
    "n": "Khushi Vats",
-   "adm": "",
+   "adm": "AD-00282",
    "f": [
     [
      "Social Science",
@@ -4375,13 +4514,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "VI",
    "sec": "A",
    "n": "Saket Kumar",
-   "adm": "",
+   "adm": "AD-00496",
    "f": [
     [
      "Social Science",
@@ -4389,7 +4529,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "VI",
@@ -4487,7 +4628,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "VII",
@@ -4521,7 +4663,7 @@
    "c": "VII",
    "sec": "B",
    "n": "Ansh Raj",
-   "adm": "",
+   "adm": "AD-00292",
    "f": [
     [
      "Mathematics",
@@ -4529,13 +4671,14 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Mayank",
-   "adm": "",
+   "adm": "AD-00827",
    "f": [
     [
      "Mathematics",
@@ -4543,13 +4686,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Prachi",
-   "adm": "",
+   "adm": "AD-01009",
    "f": [
     [
      "Mathematics",
@@ -4557,13 +4701,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Rudra",
-   "adm": "",
+   "adm": "AD-00066",
    "f": [
     [
      "Mathematics",
@@ -4571,13 +4716,14 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Samar",
-   "adm": "",
+   "adm": "AD-00188",
    "f": [
     [
      "Mathematics",
@@ -4585,13 +4731,14 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Saurabh",
-   "adm": "",
+   "adm": "AD-00830",
    "f": [
     [
      "Mathematics",
@@ -4599,13 +4746,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "VII",
    "sec": "B",
    "n": "Vedant",
-   "adm": "",
+   "adm": "AD-01006",
    "f": [
     [
      "Mathematics",
@@ -4613,7 +4761,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "VII",
@@ -4627,7 +4776,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "VII",
@@ -4641,7 +4791,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "VII",
@@ -4661,7 +4812,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "VII",
@@ -4681,7 +4833,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "VII",
@@ -4701,7 +4854,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "VII",
@@ -4721,7 +4875,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "VII",
@@ -4741,7 +4896,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "VII",
@@ -4761,7 +4917,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "VII",
@@ -4775,7 +4932,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "VII",
@@ -4789,7 +4947,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "VII",
@@ -4803,7 +4962,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "VII",
@@ -4817,7 +4977,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "VII",
@@ -4831,7 +4992,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "VII",
@@ -4845,7 +5007,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "VII",
@@ -4859,13 +5022,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "VII",
    "sec": "A",
    "n": "Sara Khan",
-   "adm": "",
+   "adm": "AD-01480",
    "f": [
     [
      "Sanskrit/Urdu",
@@ -4873,7 +5037,8 @@
      "AB",
      "Absent long time"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "VIII",
@@ -4919,7 +5084,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "VIII",
@@ -4939,7 +5105,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "VIII",
@@ -4965,7 +5132,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "12"
   },
   {
    "c": "VIII",
@@ -4985,7 +5153,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "VIII",
@@ -5011,7 +5180,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "VIII",
@@ -5037,7 +5207,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "VIII",
@@ -5063,7 +5234,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "31"
   },
   {
    "c": "VIII",
@@ -5083,7 +5255,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "32"
   },
   {
    "c": "VIII",
@@ -5115,7 +5288,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "39"
   },
   {
    "c": "VIII",
@@ -5141,7 +5315,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "40"
   },
   {
    "c": "VIII",
@@ -5167,7 +5342,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "41"
   },
   {
    "c": "VIII",
@@ -5193,7 +5369,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "VIII",
@@ -5213,13 +5390,14 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "VIII",
-   "sec": "C",
+   "sec": "B",
    "n": "Aman Kumar Jha",
-   "adm": "",
+   "adm": "AD-01202",
    "f": [
     [
      "General Knowledge",
@@ -5227,7 +5405,8 @@
      "INC",
      "Book cover torn"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "VIII",
@@ -5255,7 +5434,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "VIII",
@@ -5269,7 +5449,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "6"
   },
   {
    "c": "VIII",
@@ -5283,7 +5464,8 @@
      "INDEX",
      "Index incomplete"
     ]
-   ]
+   ],
+   "roll": "7"
   },
   {
    "c": "IX",
@@ -5303,7 +5485,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "IX",
@@ -5323,13 +5506,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Aman Raj",
-   "adm": "",
+   "adm": "AD-01052",
    "f": [
     [
      "Information Technology",
@@ -5343,13 +5527,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "6"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Durganand",
-   "adm": "",
+   "adm": "AD-00520",
    "f": [
     [
      "Information Technology",
@@ -5357,13 +5542,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Manas Kumar",
-   "adm": "",
+   "adm": "AD-00873",
    "f": [
     [
      "Information Technology",
@@ -5377,13 +5563,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Navika",
-   "adm": "",
+   "adm": "AD-01256",
    "f": [
     [
      "Information Technology",
@@ -5391,13 +5578,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Pranav",
-   "adm": "",
+   "adm": "AD-01139",
    "f": [
     [
      "Information Technology",
@@ -5405,13 +5593,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Prashant",
-   "adm": "",
+   "adm": "AD-00518",
    "f": [
     [
      "Information Technology",
@@ -5419,13 +5608,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Ramya",
-   "adm": "",
+   "adm": "AD-00266",
    "f": [
     [
      "Information Technology",
@@ -5433,13 +5623,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Rohan Kumar",
-   "adm": "",
+   "adm": "AD-00035",
    "f": [
     [
      "Information Technology",
@@ -5453,13 +5644,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Sanskriti",
-   "adm": "",
+   "adm": "AD-00019",
    "f": [
     [
      "Information Technology",
@@ -5473,13 +5665,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "31"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Vineet Vinayak",
-   "adm": "",
+   "adm": "AD-00088",
    "f": [
     [
      "Information Technology",
@@ -5493,13 +5686,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "37"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Ojas Narayan",
-   "adm": "",
+   "adm": "AD-00230",
    "f": [
     [
      "Physics",
@@ -5507,13 +5701,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "IX",
    "sec": "B",
    "n": "Shambhavi",
-   "adm": "",
+   "adm": "AD-01382",
    "f": [
     [
      "Physics",
@@ -5521,13 +5716,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "33"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Md Fauzan Aadil",
-   "adm": "",
+   "adm": "AD-00009",
    "f": [
     [
      "Physics",
@@ -5541,13 +5737,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Naweed",
-   "adm": "",
+   "adm": "AD-00463",
    "f": [
     [
      "Physics",
@@ -5561,13 +5758,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Raghunandan",
-   "adm": "",
+   "adm": "AD-00083",
    "f": [
     [
      "Physics",
@@ -5581,13 +5779,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Raiyan",
-   "adm": "",
+   "adm": "AD-00561",
    "f": [
     [
      "Physics",
@@ -5595,13 +5794,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Vaibhav Roy",
-   "adm": "",
+   "adm": "AD-01291",
    "f": [
     [
      "Physics",
@@ -5609,13 +5809,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "34"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Yusuf",
-   "adm": "",
+   "adm": "AD-01479",
    "f": [
     [
      "Physics",
@@ -5629,13 +5830,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "36"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Ebaad",
-   "adm": "",
+   "adm": "AD-01478",
    "f": [
     [
      "Biology",
@@ -5643,7 +5845,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "IX",
@@ -5663,7 +5866,7 @@
    "c": "IX",
    "sec": "A",
    "n": "Prakash",
-   "adm": "",
+   "adm": "AD-00407",
    "f": [
     [
      "Biology",
@@ -5671,13 +5874,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Rashmi Rathi",
-   "adm": "",
+   "adm": "AD-01494",
    "f": [
     [
      "Biology",
@@ -5685,13 +5889,14 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "IX",
    "sec": "A",
    "n": "Shezal",
-   "adm": "",
+   "adm": "AD-01416",
    "f": [
     [
      "Biology",
@@ -5699,7 +5904,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "32"
   },
   {
    "c": "IX",
@@ -5719,7 +5925,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "IX",
@@ -5751,7 +5958,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "IX",
@@ -5783,7 +5991,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "IX",
@@ -5803,7 +6012,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "36"
   },
   {
    "c": "IX",
@@ -5829,7 +6039,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "35"
   },
   {
    "c": "IX",
@@ -5861,7 +6072,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "31"
   },
   {
    "c": "IX",
@@ -5881,7 +6093,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "IX",
@@ -5901,7 +6114,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "IX",
@@ -5915,7 +6129,8 @@
      "NS",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "29"
   },
   {
    "c": "IX",
@@ -5935,7 +6150,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "33"
   },
   {
    "c": "IX",
@@ -5963,7 +6179,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "34"
   },
   {
    "c": "IX",
@@ -5977,7 +6194,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "37"
   },
   {
    "c": "IX",
@@ -5991,7 +6209,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "IX",
@@ -6005,13 +6224,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "IX",
-   "sec": "C",
+   "sec": "B",
    "n": "Rajas",
-   "adm": "",
+   "adm": "AD-01514",
    "f": [
     [
      "Physics",
@@ -6019,13 +6239,14 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "IX",
    "sec": "C",
    "n": "Abhijeet",
-   "adm": "",
+   "adm": "AD-00476",
    "f": [
     [
      "Physics",
@@ -6033,7 +6254,8 @@
      "NS",
      "Not brought"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "IX",
@@ -6089,7 +6311,8 @@
      "INDEX",
      "Index and page number missing"
     ]
-   ]
+   ],
+   "roll": "12"
   },
   {
    "c": "X",
@@ -6109,7 +6332,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "X",
@@ -6123,7 +6347,8 @@
      "INDEX",
      "Index missing"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "X",
@@ -6143,7 +6368,8 @@
      "NC",
      "Not signed (Economics)"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "X",
@@ -6163,7 +6389,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "X",
@@ -6183,7 +6410,8 @@
      "NC",
      "Not checked (Geography)"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "X",
@@ -6203,7 +6431,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "28"
   },
   {
    "c": "X",
@@ -6229,7 +6458,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "X",
@@ -6249,7 +6479,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "22"
   },
   {
    "c": "X",
@@ -6269,7 +6500,8 @@
      "NC + INC",
      "Not checked and incomplete"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "X",
@@ -6289,7 +6521,8 @@
      "NC",
      "Index missing, not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "6"
   },
   {
    "c": "X",
@@ -6315,7 +6548,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "X",
@@ -6329,7 +6563,8 @@
      "INDEX",
      "Index page missing"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "X",
@@ -6349,7 +6584,8 @@
      "NC + INC",
      "Not checked and incomplete (Economics)"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "X",
@@ -6363,7 +6599,8 @@
      "INDEX",
      "Date and page number missing"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "X",
@@ -6377,7 +6614,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "X",
@@ -6391,7 +6629,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "9"
   },
   {
    "c": "X",
@@ -6405,7 +6644,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "X",
@@ -6419,7 +6659,8 @@
      "NC",
      "Not signed"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "X",
@@ -6433,7 +6674,8 @@
      "NC",
      "Not checked, date missing (Economics and Geography)"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "X",
@@ -6447,7 +6689,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "X",
@@ -6461,7 +6704,8 @@
      "NC",
      "Not checked (Geography and Economics)"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "X",
@@ -6475,7 +6719,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "X",
@@ -6489,7 +6734,8 @@
      "NC",
      "Not checked (Political Science and Economics)"
     ]
-   ]
+   ],
+   "roll": "18"
   },
   {
    "c": "X",
@@ -6503,7 +6749,8 @@
      "NC",
      "Not checked (Geography)"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "X",
@@ -6517,7 +6764,8 @@
      "NC",
      "Not checked (Geography)"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "X",
@@ -6531,7 +6779,8 @@
      "NC",
      "Not checked (Economics and Geography)"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "X",
@@ -6545,7 +6794,8 @@
      "INDEX",
      "Index, page number and date missing (Geography)"
     ]
-   ]
+   ],
+   "roll": "26"
   },
   {
    "c": "X",
@@ -6559,7 +6809,8 @@
      "NC + INC",
      "Incomplete and not checked (Political Science)"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "X",
@@ -6573,7 +6824,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "X",
@@ -6587,7 +6839,8 @@
      "INDEX",
      "Date missing (Geography)"
     ]
-   ]
+   ],
+   "roll": "1"
   },
   {
    "c": "X",
@@ -6601,7 +6854,8 @@
      "NC",
      "Not checked (Geography)"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "X",
@@ -6615,7 +6869,8 @@
      "INDEX",
      "Date missing (Geography)"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "X",
@@ -6629,7 +6884,8 @@
      "NC",
      "Not checked (Geography, History, Economics)"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "X",
@@ -6643,7 +6899,8 @@
      "NC",
      "Not checked (Geography and Economics)"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "X",
@@ -6657,7 +6914,8 @@
      "INC",
      "Incomplete (Economics)"
     ]
-   ]
+   ],
+   "roll": "13"
   },
   {
    "c": "X",
@@ -6671,7 +6929,8 @@
      "INDEX",
      "Date and page number missing (Economics)"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "X",
@@ -6685,7 +6944,8 @@
      "NC",
      "Not checked (Geography)"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "X",
@@ -6699,7 +6959,8 @@
      "INC",
      "Incomplete (History)"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "X",
@@ -6713,7 +6974,8 @@
      "NC",
      "Not checked (Geography, Political Science, Economics)"
     ]
-   ]
+   ],
+   "roll": "25"
   },
   {
    "c": "X",
@@ -6727,7 +6989,8 @@
      "NC",
      "Not checked (Economics)"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "X",
@@ -6741,7 +7004,8 @@
      "NS",
      "Urdu notebook not submitted"
     ]
-   ]
+   ],
+   "roll": "6"
   },
   {
    "c": "X",
@@ -6797,7 +7061,8 @@
      "NC",
      "NOT CHECKED by teacher"
     ]
-   ]
+   ],
+   "roll": "17"
   },
   {
    "c": "VIII",
@@ -6817,7 +7082,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "14"
   },
   {
    "c": "VIII",
@@ -6837,7 +7103,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "3"
   },
   {
    "c": "VIII",
@@ -6857,7 +7124,8 @@
      "NC",
      "Not checked"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "VIII",
@@ -6871,7 +7139,8 @@
      "INC",
      "Incomplete"
     ]
-   ]
+   ],
+   "roll": "36"
   },
   {
    "c": "VIII",
@@ -6891,7 +7160,8 @@
      "INC",
      "Incomplete, marked with a cross"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "VIII",
@@ -6911,7 +7181,8 @@
      "INC",
      "Incomplete, marked with a cross"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "VIII",
@@ -6937,7 +7208,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "38"
   },
   {
    "c": "VIII",
@@ -6957,7 +7229,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "4"
   },
   {
    "c": "VIII",
@@ -6971,7 +7244,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "10"
   },
   {
    "c": "VIII",
@@ -6991,7 +7265,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "8"
   },
   {
    "c": "VIII",
@@ -7011,7 +7286,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "23"
   },
   {
    "c": "VIII",
@@ -7031,7 +7307,8 @@
      "NS",
      "Not submitted (absent)"
     ]
-   ]
+   ],
+   "roll": "27"
   },
   {
    "c": "VIII",
@@ -7051,7 +7328,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "37"
   },
   {
    "c": "VIII",
@@ -7071,7 +7349,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "42"
   },
   {
    "c": "VIII",
@@ -7085,7 +7364,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "VIII",
@@ -7099,7 +7379,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "21"
   },
   {
    "c": "VIII",
@@ -7119,7 +7400,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "24"
   },
   {
    "c": "VIII",
@@ -7139,7 +7421,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "35"
   },
   {
    "c": "VIII",
@@ -7153,7 +7436,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "VIII",
@@ -7167,7 +7451,8 @@
      "INC",
      "Work not completed"
     ]
-   ]
+   ],
+   "roll": "33"
   },
   {
    "c": "VIII",
@@ -7187,7 +7472,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "39"
   },
   {
    "c": "III",
@@ -7201,7 +7487,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "30"
   },
   {
    "c": "III",
@@ -7215,7 +7502,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "III",
@@ -7229,7 +7517,8 @@
      "AB",
      "Absent"
     ]
-   ]
+   ],
+   "roll": "16"
   },
   {
    "c": "III",
@@ -7243,7 +7532,8 @@
      "INDEX",
      "Indexing left"
     ]
-   ]
+   ],
+   "roll": "19"
   },
   {
    "c": "VIII",
@@ -7257,7 +7547,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "2"
   },
   {
    "c": "VIII",
@@ -7271,7 +7562,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "11"
   },
   {
    "c": "VIII",
@@ -7285,7 +7577,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "15"
   },
   {
    "c": "VIII",
@@ -7299,7 +7592,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "20"
   },
   {
    "c": "VIII",
@@ -7313,7 +7607,8 @@
      "NS",
      "Not submitted"
     ]
-   ]
+   ],
+   "roll": "28"
   }
  ],
  "actions": [
@@ -7405,6 +7700,11 @@
  ],
  "quality": [
   [
+   "Validators writing a first name only",
+   "29 of 82 Class VI findings, and a handful in Classes I, IV, VII and IX",
+   "Where the sheet or typed table gives only 'Sammar', 'Namansh', 'Matifar', 'Ujjal' or 'Nayan Kr. Jha' and more than one child in that class fits, the finding cannot be tied to a student. It is real and is listed, but it is deliberately kept out of the charts rather than guessed onto the wrong child. Full name as per the ERP, please — or better, the admission number."
+  ],
+  [
    "Covering mail contradicts the sheet attached to it",
    "Class VIII Social Science (1 Aug) and Class III Information Technology (3 Aug)",
    "Ms. Avni's mail states 'All notebooks have been checked and validated as per the prescribed guidelines' while her own sheet shows roughly half of VIII A as NS and three students marked 'Not checked'. Mr. Farhan's mail says '53 validated, 3 absent' where his sheet says 52 validated, 3 not produced, 1 absent. Read the sheet, not the mail."
@@ -7461,6 +7761,10 @@
   ]
  ],
  "corrections": [
+  [
+   "Findings were being attached to the wrong child — found by Abhishek, now fixed",
+   "The chart showed Aanya Singh (I-A) as having left the school in two subjects and validated in another, which is impossible. Purvika Singh, who has left and is therefore absent from the current ERP roster, had been bound to Aanya on the shared surname alone, overwriting Aanya's own record. The same fault put four Class VI girls onto one classmate and four boys onto another, and read 'Artha Kumari' as 'Sarthak Chaudhary'. Separately, two admission numbers had been transcribed wrongly: Kartik Aryan was carrying Kanishk Kushan's number and Rishav was carrying Reyansh Kumar's. Twenty-two students were also shown in the wrong section. All corrected: identity is now resolved by admission number first, a shared surname is never accepted, section and roll are taken from the ERP rather than from the sheet, and the build refuses to run if an admission number contradicts the name it sits beside."
+  ],
   [
    "Four more reports arrived late on the night of 3 August, after the first version of this page went up",
    "Mr. Farhan sent Class III Information Technology at 21:38. Mr. Diwas Rai sent Class VIII Hindi at 21:59 — his first report of the entire drive, having been covered by Ms. Chhumi and Ms. Avni since 29 July. Ms. Avni sent Class VIII English AND Social Science at 23:36 in a single mail titled only 'Social Science'. Coverage moved from 45 to 49 of the 62 validations due by Monday, and Class VIII from 3 of 8 to 6 of 8."

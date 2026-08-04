@@ -77,6 +77,26 @@ for st in D["students"]:
         else:
             unmatched.append(f'Class {st["c"]} — "{nm}" ({how})')
 
+# ---- ADMISSION-NUMBER vs NAME CHECK ---------------------------------------
+# An admission number transcribed from a sheet can be wrong. If the roster name
+# for that number is a different person, the number must not be trusted.
+# (Caught 'Kartik Aryan' carrying Kanishk Kushan's number, and 'Rishav'
+#  carrying Reyansh Kumar's.)
+import difflib
+adm_conflicts=[]
+for st in D["students"]:
+    nm=st["n"]; adm=st.get("adm")
+    if not adm or re.match(r'^\d|^All\b|^\d+ ',nm): continue
+    r=MATCH.by_adm.get(adm)
+    if not r: continue
+    a=norm(re.sub(r'\(.*?\)','',nm)); b=norm(r["name"])
+    if a==b or (set(a.split())&set(b.split())) or difflib.SequenceMatcher(None,a,b).ratio()>=0.72:
+        continue
+    adm_conflicts.append(f'"{nm}" carries admission no. {adm}, which the ERP says is {r["name"]}')
+if adm_conflicts:
+    raise SystemExit("REFUSING TO BUILD - admission number contradicts the name:\n  "
+                     + "\n  ".join(adm_conflicts))
+
 # ---- INTEGRITY GUARD -------------------------------------------------------
 # The bug this prevents: two different names on the sheets silently resolving to
 # the SAME child, so one student inherits another's record. Purvika Singh's
