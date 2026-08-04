@@ -442,6 +442,33 @@ def charts():
     key = "".join(
         f'<div><span class="cell {cc}">{lab or "&nbsp;"}</span> {e(meaning)}</div>'
         for code, (lab, cc, meaning) in CELL.items())
+
+    def lst(items, title, why):
+        if not items: return ""
+        return (f'<div class="act" style="--c:var(--warn)"><h3><span class="sev">check</span>{e(title)}</h3>'
+                f'<p>{e(why)}</p><ul class="names" style="margin-top:8px">'
+                + "".join(f'<li>{e(i)}</li>' for i in items) + '</ul></div>')
+
+    integrity = ('<details class="card" style="margin-top:18px"><summary>'
+        '<span class="marker">&#9656;</span><span class="tw" style="font-size:16px">How names were matched</span>'
+        f'<span class="who">{len(MX.get("unmatched",[]))} findings could not be tied to a child</span></summary>'
+        '<div class="body" style="padding:16px 18px">'
+        '<p style="margin:0 0 12px;color:var(--ink-2);font-size:13.5px">Findings are tied to a child by '
+        '<b>admission number first</b>, then an exact name, then a unique first name. A shared surname is never '
+        'enough on its own &mdash; an earlier version of this page accepted one, and Purvika Singh&rsquo;s '
+        '&ldquo;left the school&rdquo; was wrongly shown against Aanya Singh, with four Class VI girls folded onto '
+        'one classmate and four boys onto another. That is fixed, and the build now reports every merge for checking.</p>'
+        + lst(MX.get("merged", []), "Two names on the sheets treated as one child",
+              "Legitimate when a validator wrote the name short. Worth a glance to confirm each one.")
+        + lst(MX.get("left_school", []), "Named on the sheets but no longer on the ERP roster",
+              "These children appear on the printed validation sheets and are not in today's ERP export.")
+        + lst(MX.get("moved", []), "On one class's sheets, but the ERP has them in another class",
+              "The packs were printed on 27 July; the roster has moved since.")
+        + lst(MX.get("unmatched", []), "Findings that could not be tied to a specific child",
+              "The validator wrote a first name only, or a spelling the ERP does not carry, and more than one "
+              "child fits. These are real findings and appear in the student list below, but they are deliberately "
+              "left out of the charts rather than guessed onto the wrong child. Full name as per the ERP, please.")
+        + '</div></details>')
     return ('<section id="charts"><h2>Class-by-class chart &mdash; every student, every subject</h2>'
             '<p class="lede">Pulled fresh from the ERP on 3 August: 861 active students across 27 sections. '
             'Every subject the drive scheduled for that class is a column. Read across a row to see one child\'s '
@@ -452,7 +479,7 @@ def charts():
             'Only students with something wrong</label>'
             '<button id="csrt" class="btn">Sort by flag count</button>'
             '<span class="count" id="ccnt"></span></div>'
-            + "".join(blocks) + '</section>')
+            + "".join(blocks) + integrity + '</section>')
 
 
 def actions():

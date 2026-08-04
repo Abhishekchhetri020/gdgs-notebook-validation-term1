@@ -173,24 +173,24 @@
 "opt": "",
 "cells": [
 {
-"v": "LEFT",
-"w": "Left the school"
-},
-{
-"v": "LEFT",
-"w": "Left the school"
-},
-{
 "v": "NS",
-"w": "Absent"
+"w": "Long absent"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Absent \u2014 left"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NOT-DUE",
@@ -551,8 +551,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NS",
+"w": "Absent"
 },
 {
 "v": "OK",
@@ -585,8 +585,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Absent"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -785,8 +785,12 @@
 "opt": "",
 "cells": [
 {
-"v": "LEFT",
-"w": "Left the school"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NS",
@@ -799,10 +803,6 @@
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
-},
-{
-"v": "NS",
-"w": "Absent"
 },
 {
 "v": "NOT-DUE",
@@ -827,8 +827,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Absent"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -887,16 +887,16 @@
 "opt": "",
 "cells": [
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NS",
+"w": "Absent"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NS",
+"w": "Absent"
 },
 {
 "v": "OK",
@@ -921,16 +921,16 @@
 "opt": "",
 "cells": [
 {
-"v": "NS",
-"w": "Absent"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Absent"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -7891,8 +7891,8 @@
 "opt": "",
 "cells": [
 {
-"v": "NS",
-"w": "Not brought"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -8741,8 +8741,8 @@
 "opt": "",
 "cells": [
 {
-"v": "NS",
-"w": "Not brought"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -8877,8 +8877,8 @@
 "opt": "",
 "cells": [
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NO-REPORT",
@@ -9659,8 +9659,8 @@
 "opt": "",
 "cells": [
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NS",
+"w": "Not submitted"
 },
 {
 "v": "NO-REPORT",
@@ -9761,8 +9761,8 @@
 "opt": "",
 "cells": [
 {
-"v": "NC + INC",
-"w": "Incomplete work AND not checked by teacher"
+"v": "NOT-VALIDATED",
+"w": "Notebooks not handed to the validator by the subject teacher"
 },
 {
 "v": "NO-REPORT",
@@ -11659,28 +11659,28 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "NOT CHECKED by teacher"
+"v": "NS",
+"w": "Not submitted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NS",
-"w": "Not submitted"
-},
-{
-"v": "NS",
-"w": "Not submitted"
-},
-{
-"v": "INC",
-"w": "Work incomplete (Literature)"
+"w": "Not submitted (both books)"
 },
 {
 "v": "INDEX",
@@ -11709,8 +11709,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -11843,32 +11843,32 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "NOT CHECKED by teacher"
-},
-{
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "AB",
-"w": "Absent"
-},
-{
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INDEX",
-"w": "Index not completed"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NOT-DUE",
@@ -11893,24 +11893,24 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "AB",
-"w": "Absent"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -12035,10 +12035,6 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
-},
-{
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
@@ -12047,8 +12043,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -12261,24 +12261,24 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC + INC",
-"w": "Not checked and incomplete"
-},
-{
-"v": "INC",
-"w": "Incomplete"
-},
-{
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted (Language)"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -12595,8 +12595,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -12625,10 +12625,6 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Work not done"
-},
-{
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
@@ -12641,8 +12637,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -12771,8 +12771,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -13151,12 +13151,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "Teacher not checked (Literature)"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
-"v": "INDEX",
-"w": "Index not completed"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NOT-DUE",
@@ -13637,10 +13637,6 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "NOT CHECKED by teacher"
-},
-{
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
@@ -13653,8 +13649,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -13795,8 +13795,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -13867,8 +13867,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "NOT CHECKED by teacher"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -14121,8 +14121,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NC",
+"w": "NOTEBOOK NOT CHECKED by teacher"
 },
 {
 "v": "NOT-DUE",
@@ -14879,8 +14879,8 @@
 "w": "Every row in the section marked incomplete"
 },
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "NC",
+"w": "NOT CHECKED by teacher"
 },
 {
 "v": "OK",
@@ -15109,24 +15109,24 @@
 "w": "Every row in the section marked incomplete"
 },
 {
-"v": "INC",
-"w": "Incomplete"
-},
-{
-"v": "INC",
-"w": "Incomplete"
-},
-{
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -15209,10 +15209,6 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
-},
-{
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
@@ -15221,8 +15217,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -15255,10 +15255,6 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete"
-},
-{
 "v": "OK",
 "w": "Notebook produced and accepted"
 },
@@ -15267,8 +15263,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
+},
+{
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -16301,8 +16301,8 @@
 "opt": "",
 "cells": [
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "NOT-SUBMITTED",
+"w": "Section notebooks not submitted on the day; re-run arranged, report awaited"
 },
 {
 "v": "OK",
@@ -16485,8 +16485,8 @@
 "opt": "",
 "cells": [
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "NOT-SUBMITTED",
+"w": "Section notebooks not submitted on the day; re-run arranged, report awaited"
 },
 {
 "v": "OK",
@@ -17681,8 +17681,8 @@
 "opt": "",
 "cells": [
 {
-"v": "AB",
-"w": "Absent"
+"v": "NOT-SUBMITTED",
+"w": "Section notebooks not submitted on the day; re-run arranged, report awaited"
 },
 {
 "v": "OK",
@@ -18785,8 +18785,8 @@
 "opt": "",
 "cells": [
 {
-"v": "OK",
-"w": "Notebook produced and accepted"
+"v": "AB",
+"w": "Absent"
 },
 {
 "v": "OK",
@@ -19337,8 +19337,8 @@
 "opt": "",
 "cells": [
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -19383,8 +19383,8 @@
 "opt": "",
 "cells": [
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -20073,8 +20073,8 @@
 "opt": "",
 "cells": [
 {
-"v": "INC",
-"w": "Incomplete"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -20265,8 +20265,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -20817,8 +20817,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Not submitted"
+"v": "NOT-SUBMITTED",
+"w": "Whole section marked NS \u2014 advance collection not handed over"
 },
 {
 "v": "NO-REPORT",
@@ -23405,12 +23405,12 @@
 "w": "Validation due \u2014 no report received"
 },
 {
-"v": "NC",
-"w": "NOT CHECKED by teacher"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
-"v": "NC",
-"w": "Not checked"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -27257,8 +27257,8 @@
 "w": "Sheet records only 12 validated of 114 with an empty defaulter box"
 },
 {
-"v": "NS",
-"w": "Not brought"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "OK",
@@ -28645,8 +28645,8 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "NS",
-"w": "Absent"
+"v": "NOT-VALIDATED",
+"w": "Subject teacher on long leave \u2014 notebooks never produced"
 },
 {
 "v": "NO-REPORT",
@@ -32812,7 +32812,7 @@
 },
 {
 "v": "NC",
-"w": "Not checked (Geography, Political Science, Economics)"
+"w": "Not checked, date missing (Economics and Geography)"
 },
 {
 "v": "NOT-VALIDATED",
@@ -34025,12 +34025,12 @@
 "w": "Notebook produced and accepted"
 },
 {
-"v": "INC",
-"w": "Incomplete work"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
-"v": "NC + INC",
-"w": "Not checked and incomplete (Economics)"
+"v": "OK",
+"w": "Notebook produced and accepted"
 },
 {
 "v": "NOT-VALIDATED",
@@ -35314,5 +35314,56 @@
 }
 ]
 }
+],
+"unmatched": [
+"Class I \u2014 \"Suryansh\" (no-candidate)",
+"Class IV \u2014 \"Vaibhav\" (ambiguous(2))",
+"Class IV \u2014 \"Arnav Banka\" (no-candidate)",
+"Class VI \u2014 \"MD Qamar Imam\" (ambiguous(3))",
+"Class VI \u2014 \"Ayush Kumar\" (ambiguous(4))",
+"Class VI \u2014 \"Ansh Bhardwaj\" (ambiguous(2))",
+"Class VI \u2014 \"Vibash Kumar\" (common-surname-only)",
+"Class VI \u2014 \"Harshvardhan Jha\" (common-surname-only)",
+"Class VI \u2014 \"Anjeli Singh\" (common-surname-only)",
+"Class VI \u2014 \"Shourya\" (no-candidate)",
+"Class VI \u2014 \"Namansh\" (no-candidate)",
+"Class VI \u2014 \"Shamvi\" (no-candidate)",
+"Class VI \u2014 \"Ujjal\" (no-candidate)",
+"Class VI \u2014 \"Jabhyata\" (no-candidate)",
+"Class VI \u2014 \"Nayan Kr. Jha\" (no-candidate)",
+"Class VI \u2014 \"Shivani Kumari\" (no-candidate)",
+"Class VI \u2014 \"Vidhi Kumar\" (no-candidate)",
+"Class VI \u2014 \"Manasvi Mukund\" (no-candidate)",
+"Class VI \u2014 \"Mokdul Islam\" (common-surname-only)",
+"Class VI \u2014 \"Anistha Kumari\" (no-candidate)",
+"Class VI \u2014 \"Anush Ray\" (ambiguous(2))",
+"Class VI \u2014 \"Aarohi Aman\" (ambiguous(2))",
+"Class VI \u2014 \"Haritesh Kumar\" (common-surname-only)",
+"Class VI \u2014 \"Sahiyato Shaurav\" (no-candidate)",
+"Class VI \u2014 \"Jhanvi Kumari\" (no-candidate)",
+"Class VI \u2014 \"MD Adudas\" (ambiguous(3))",
+"Class VI \u2014 \"Antar Kumar\" (no-candidate)",
+"Class VI \u2014 \"Sagam Raj\" (no-candidate)",
+"Class VI \u2014 \"Aditya Narayan Singh\" (ambiguous(2))",
+"Class VI \u2014 \"Matifar\" (no-candidate)",
+"Class VI \u2014 \"Artha Kumari\" (no-candidate)",
+"Class VI \u2014 \"Naman Karan\" (ambiguous(3))",
+"Class VII \u2014 \"Aditya\" (ambiguous(3))",
+"Class VII \u2014 \"Ansh\" (ambiguous(3))",
+"Class IX \u2014 \"Mohammad\" (ambiguous(3))",
+"Class IX \u2014 \"Ayush Yadav\" (ambiguous(3))"
+],
+"left_school": [
+"Purvika Singh (AD-01213) is named on the Class I sheets but is no longer on the ERP roster",
+"Shriyansh Kumar (AD-01467) is named on the Class I sheets but is no longer on the ERP roster"
+],
+"moved": [
+"Dipesh Kumar (AD-01520) appears on the Class VIII sheets but the ERP now has this student in Class VII-C"
+],
+"merged": [
+"ALI SHAYAAN AHMAD (AD-00236) <- both \"Ali Shayaan Ahmad\" and \"Ali Ahmad\"",
+"ANUSHKA ROY (AD-00147) <- both \"Anushka Roy\" and \"Anushka Roy (Sanskrit)\"",
+"YUG SINGH (AD-00384) <- both \"Yug Singh\" and \"Yug Singh (IT)\"",
+"RAGHAV JHA (AD-01060) <- both \"Raghav Jha\" and \"Raghav Jha (IT)\""
 ]
 }
