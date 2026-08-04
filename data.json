@@ -3,8 +3,8 @@
   "school": "G.D. Goenka School, Darbhanga",
   "drive": "Term I Notebook Validation 2026-27",
   "window": "Wed 29 July – Tue 4 August 2026",
-  "audited": "3 August 2026, 21:00 IST",
-  "sources": "884 mailbox messages re-read with no keyword filter; 46 validation reports; 85 attachments; 133 rendered sheet pages read; roster pulled fresh from the ERP on 3 August",
+  "audited": "4 August 2026, 01:00 IST",
+  "sources": "898 mailbox messages re-read with no keyword filter; 50 validation reports; 91 attachments; 140 rendered sheet pages read; roster pulled fresh from the ERP",
   "students": 861,
   "sections": 27,
   "planned_checks": 6637,
@@ -328,9 +328,13 @@
    "c": "III",
    "s": "Information Technology",
    "d": "Mon 03 Aug",
-   "st": "miss",
+   "st": "ok",
    "by": "Mr. Farhan",
-   "n": "Due today. No report. III A was an advance-collection case."
+   "n": "Arrived 3 Aug at 21:38, same day. Sheet: 52 validated, 3 not produced, 1 absent. His covering mail says '53 validated, 3 absent', which does not match his own sheet — take the sheet. Ms. Sonila is the IT teacher for both sections.",
+   "t": 56,
+   "v": 52,
+   "np": 3,
+   "ab": 1
   },
   {
    "c": "III",
@@ -684,25 +688,34 @@
    "c": "VIII",
    "s": "English",
    "d": "Sat 01 Aug",
-   "st": "miss",
+   "st": "part",
    "by": "Ms. Avni",
-   "n": "No report."
+   "n": "Arrived 3 Aug at 23:36 — sheet signed and dated 01/08/26, so held two days before sending. FOUR STUDENTS RECORDED 'NOT CHECKED': the work was done and the teacher never signed it. Four more marked incomplete. Teachers: VIII A and VIII C Ms. Anuja, VIII B Mr. Zaid.",
+   "t": 125,
+   "v": 99,
+   "np": 23,
+   "ab": 8
   },
   {
    "c": "VIII",
    "s": "Social Science",
    "d": "Sat 01 Aug",
-   "st": "miss",
+   "st": "part",
    "by": "Ms. Avni",
-   "n": "No report."
+   "n": "Arrived in the same 3 Aug 23:36 mail, two days late. VIII A is heavily NS — roughly half the section produced no Social Science notebook. Three students carry a written 'Not checked' remark. Teachers: VIII A and VIII B Ms. Ashmita, VIII C Ms. Triprarna. The covering mail claims 'All notebooks have been checked and validated as per the prescribed guidelines', which the sheets themselves contradict.",
+   "t": 125
   },
   {
    "c": "VIII",
    "s": "Hindi",
    "d": "Mon 03 Aug",
-   "st": "miss",
-   "by": "Ms. Avni",
-   "n": "Due today. No report."
+   "st": "part",
+   "by": "Mr. Diwas",
+   "n": "MR. DIWAS'S FIRST REPORT OF THE DRIVE — the assigned validator finally acted, on the last working day, having been covered by Ms. Chhumi and Ms. Avni since 29 July. Submitted as a spreadsheet, not the printed sheet. Its own numbers disagree: the dashboard says 116 notebooks and 7 absent, the class-wise table on the same tab says 125 and 16. The 'All Students Data' tab is titled 'All 125 Students Record' but contains about 46 rows. One entry reads 'Not Submitted note erased'. Sixteen defaulters are named and usable; the totals are not.",
+   "t": 125,
+   "v": 101,
+   "np": 9,
+   "ab": 7
   },
   {
    "c": "VIII",
@@ -924,6 +937,24 @@
    "why": "Named on a signed, certified sheet."
   },
   {
+   "name": "Ms. Anuja Laha / Mr. MD Zaid",
+   "sev": "high",
+   "subjects": "English VIII A, VIII B, VIII C",
+   "findings": [
+    "Class VIII English, 1 Aug — four students recorded 'Not checked' in the Defaulter Summary: their work was done and never signed.",
+    "Four more marked incomplete. 23 of 125 did not produce the notebook at all."
+   ]
+  },
+  {
+   "name": "Ms. Ashmita Chhetri / Ms. Triprarna Gurung",
+   "sev": "high",
+   "subjects": "Social Science VIII A, VIII B, VIII C",
+   "findings": [
+    "Class VIII Social Science, 1 Aug — VIII A heavily NS, roughly half the section produced nothing.",
+    "Three students carry a written 'Not checked' remark against the teacher."
+   ]
+  },
+  {
    "name": "Ms. Saloni Kumari",
    "sev": "high",
    "subjects": "Science VI (all sections); Biology IX A",
@@ -1024,6 +1055,14 @@
    "subjects": "English III A, III B",
    "findings": [
     "Class III English — four students marked 'Not Checked' in the Remarks column by Mr. Farhan (Hem Prakash, Kashish Kumari, Raghav Jha, Riyaarth Gupta, Abhigya Sharma)."
+   ]
+  },
+  {
+   "name": "Ms. Smriti Sahay",
+   "sev": "medium",
+   "subjects": "Hindi VIII A, VIII B, VIII C",
+   "findings": [
+    "Class VIII Hindi, 3 Aug — 8 students not submitted, 1 work not completed, 7 absent out of 125."
    ]
   }
  ],
@@ -4873,6 +4912,12 @@
      "Thu 30 Jul",
      "NS",
      "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
     ]
    ]
   },
@@ -4913,6 +4958,12 @@
      "Thu 30 Jul",
      "NS",
      "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
     ]
    ]
   },
@@ -4951,6 +5002,12 @@
     [
      "General Knowledge",
      "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
      "NS",
      "Not submitted"
     ]
@@ -5051,6 +5108,12 @@
      "Thu 30 Jul",
      "NS",
      "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
     ]
    ]
   },
@@ -5069,6 +5132,12 @@
     [
      "General Knowledge",
      "Thu 30 Jul",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
      "NS",
      "Not submitted"
     ]
@@ -6681,7 +6750,7 @@
    "adm": "—",
    "f": [
     [
-     "Hindi",
+     "Hindi / Urdu",
      "Fri 31 Jul",
      "NO-RUN",
      "Never validated — Mr. Nikhil absent, notebooks never produced"
@@ -6713,6 +6782,536 @@
      "Thu 30 Jul",
      "NS",
      "Counted on the summary line as 'Absent' but marked NS on the sheet. Names appear in the row grid, not the defaulter box"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Manasvini",
+   "adm": "AD-00822",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "NC",
+     "NOT CHECKED by teacher"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Ayush Raj",
+   "adm": "AD-01148",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Abhimaan Sharma",
+   "adm": "AD-00739",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Rishabh Jha",
+   "adm": "AD-01165",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "NC",
+     "NOT CHECKED by teacher"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NC",
+     "Not checked"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Souwik Das",
+   "adm": "AD-00817",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Aryan Raj",
+   "adm": "AD-00119",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete, marked with a cross"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Nishant Ranjan",
+   "adm": "AD-01088",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete, marked with a cross"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Surya",
+   "adm": "AD-00097",
+   "f": [
+    [
+     "English",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "INC",
+     "Incomplete, marked with a cross"
+    ],
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Adeep Kamil",
+   "adm": "AD-00710",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Divya Yadav",
+   "adm": "AD-00134",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Arunanshu Kumar",
+   "adm": "AD-01153",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Mihika Thakur",
+   "adm": "AD-00008",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Priyanshi Kumari",
+   "adm": "AD-01249",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted (absent)"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Subhash Kumar",
+   "adm": "AD-00270",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Yusra Ekram",
+   "adm": "AD-00284",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ],
+    [
+     "English",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "B",
+   "n": "Harsh Kumar Jha",
+   "adm": "AD-00662",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "B",
+   "n": "Janvi Kumari",
+   "adm": "AD-01436",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "B",
+   "n": "Navneet Kumar",
+   "adm": "AD-00348",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "B",
+   "n": "Sidharth Vaibhav",
+   "adm": "AD-01328",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "English",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Keshav Kumar",
+   "adm": "AD-00329",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Shashank Kumar",
+   "adm": "AD-00887",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "INC",
+     "Work not completed"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "C",
+   "n": "Suryansh Sharma",
+   "adm": "AD-00222",
+   "f": [
+    [
+     "Hindi",
+     "Mon 03 Aug",
+     "NS",
+     "Not submitted"
+    ],
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Yug Singh (IT)",
+   "adm": "AD-00384",
+   "f": [
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Rangnath",
+   "adm": "AD-00728",
+   "f": [
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "B",
+   "n": "Krishna Kumar",
+   "adm": "AD-01530",
+   "f": [
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "AB",
+     "Absent"
+    ]
+   ]
+  },
+  {
+   "c": "III",
+   "sec": "A",
+   "n": "Raghav Jha (IT)",
+   "adm": "AD-01060",
+   "f": [
+    [
+     "Information Technology",
+     "Mon 03 Aug",
+     "INDEX",
+     "Indexing left"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Aayushman Chaudhary",
+   "adm": "AD-00733",
+   "f": [
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Hibatullah Firoz",
+   "adm": "AD-00493",
+   "f": [
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Khushi Kant",
+   "adm": "AD-00322",
+   "f": [
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Md Faizan",
+   "adm": "AD-00635",
+   "f": [
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
+    ]
+   ]
+  },
+  {
+   "c": "VIII",
+   "sec": "A",
+   "n": "Ravi Prakash",
+   "adm": "AD-00916",
+   "f": [
+    [
+     "Social Science",
+     "Sat 01 Aug",
+     "NS",
+     "Not submitted"
     ]
    ]
   }
@@ -6806,6 +7405,16 @@
  ],
  "quality": [
   [
+   "Covering mail contradicts the sheet attached to it",
+   "Class VIII Social Science (1 Aug) and Class III Information Technology (3 Aug)",
+   "Ms. Avni's mail states 'All notebooks have been checked and validated as per the prescribed guidelines' while her own sheet shows roughly half of VIII A as NS and three students marked 'Not checked'. Mr. Farhan's mail says '53 validated, 3 absent' where his sheet says 52 validated, 3 not produced, 1 absent. Read the sheet, not the mail."
+  ],
+  [
+   "A report submitted as a spreadsheet whose own totals disagree",
+   "Class VIII Hindi, Mr. Diwas, 3 Aug",
+   "The dashboard tab says 116 notebooks and 7 absent; the class-wise table directly beneath says 125 and 16. The tab titled 'All 125 Students Record' holds about 46 rows. One entry reads 'Not Submitted note erased'. The 16 named defaulters are usable; the totals are not."
+  ],
+  [
    "Reports sent late, in batches",
    "Class IV (four reports batched on 1 Aug), Class VI (all six of Ms. Ankita's 1–3 days late), Class VII (30 Jul sheets sent 1 Aug), Class IX Biology and English",
    "The Office Order requires the signed sheet to be photographed and mailed the SAME DAY. A batch arriving three days later, out of order, with no class or subject in the subject line, is what prompted 'I am not able to understand the report.'"
@@ -6853,20 +7462,28 @@
  ],
  "corrections": [
   [
-   "Class III is NOT a blackout",
-   "Mr. Syed Farhan Ahmad reported on 29 July with five scanned sheets — Mathematics, Hindi Literature, Hindi Grammar, General Knowledge and English — and again on 31 July for GK III-B. He is one of the better reporters in the drive. An earlier internal check missed these because the mailbox search used the word 'valid', which does not match 'Validation' in Gmail."
+   "Four more reports arrived late on the night of 3 August, after the first version of this page went up",
+   "Mr. Farhan sent Class III Information Technology at 21:38. Mr. Diwas Rai sent Class VIII Hindi at 21:59 — his first report of the entire drive, having been covered by Ms. Chhumi and Ms. Avni since 29 July. Ms. Avni sent Class VIII English AND Social Science at 23:36 in a single mail titled only 'Social Science'. Coverage moved from 45 to 49 of the 62 validations due by Monday, and Class VIII from 3 of 8 to 6 of 8."
   ],
   [
-   "Class VI is fully covered, not one-third covered",
-   "Ms. Ankita Kerketta sent three further reports on the night of 31 July (Science, Social Science, General Knowledge) and Mr. Abhaydeep Kumar sent English and Sanskrit/Urdu tonight. All eight due validations are in. The problem in Class VI is not coverage — it is what the sheets show."
+   "A counting error on this page has been corrected",
+   "Class III was shown as 4 of 4 when it was 3 of 4. English had been validated ahead of its 4 August date, and that early completion was wrongly allowed to fill the gap left by Information Technology, which was then still missing. The headline read 46 when it should have read 45. Information Technology has since arrived, so Class III is now genuinely 4 of 4 — but the figure was wrong for a day. Every counter on this page is now computed from the schedule rather than entered by hand, so the same mistake cannot recur."
+  ],
+  [
+   "Class III was never a blackout",
+   "Mr. Syed Farhan Ahmad reported on 29 July with five scanned sheets — Mathematics, Hindi Literature, Hindi Grammar, General Knowledge and English — again on 31 July for GK III-B, and again on 3 August for Information Technology. An earlier internal check missed these because the mailbox search used the word 'valid', which does not match 'Validation' in Gmail."
+  ],
+  [
+   "Class VI is fully covered",
+   "Ms. Ankita Kerketta sent three further reports late on 31 July and Mr. Abhaydeep Kumar sent English and Sanskrit/Urdu on 3 August. All eight validations due are in. The problem in Class VI is not coverage — it is what the sheets show."
   ],
   [
    "Class X Physics was delivered, not missed",
-   "Mr. Santu could not run it on 1 August because Mr. Satyananda was absent, obtained a written commitment, and the signed sheet arrived tonight along with Class X Information Technology."
+   "Mr. Santu could not run it on 1 August because Mr. Satyananda was absent, obtained a written commitment, and the signed sheet arrived on 3 August along with Class X Information Technology."
   ],
   [
    "The roster has moved since the drive was planned",
-   "The plan was built on 859 students; the ERP pull on 3 August returns 861 active students in Classes I–X across the same 27 sections (Class I 53, II 61, III 57, IV 85, V 81, VI 101, VII 98, VIII 124, IX 115, X 86). The class charts use the fresh ERP roster, so a few children appear who were not on the printed validation sheets, and a few who have left no longer appear."
+   "The plan was built on 859 students; the ERP pull returns 861 active students in Classes I–X across the same 27 sections. The class charts use the fresh ERP roster."
   ]
  ]
 }

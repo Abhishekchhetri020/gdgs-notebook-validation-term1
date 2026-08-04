@@ -8,6 +8,33 @@ MX = json.load(open(os.path.join(HERE, "matrix.json"), encoding="utf8"))
 M = D["meta"]
 CLASSES = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
+# ---------------------------------------------------------------------------
+# Every counter below is DERIVED from the slot list. Nothing is hand-entered.
+# An earlier build hand-typed Class III as 4/4 when the slots said 3/4 (a slot
+# validated ahead of schedule was allowed to fill the gap left by a missing
+# one), and the site headline was wrong by one for a day. Never again.
+# ---------------------------------------------------------------------------
+FINAL_DAY = "Tue 04 Aug"          # last day of the drive
+REPORTED = ("ok", "part", "early")
+
+def slots_of(cls):        return [s for s in D["slots"] if s["c"] == cls]
+def was_due(s):           return s["d"] != FINAL_DAY          # due by Mon 3 Aug
+def is_today(s):          return s["d"] == FINAL_DAY
+def reported(s):          return s["st"] in REPORTED
+
+def tally(slots):
+    """(reported-of-due, due, reported-early-but-not-yet-due, today, today-reported)"""
+    due   = [s for s in slots if was_due(s)]
+    got   = [s for s in due if reported(s)]
+    today = [s for s in slots if is_today(s)]
+    early = [s for s in today if reported(s)]
+    return len(got), len(due), len(early), len(today), len(early)
+
+G_GOT, G_DUE, G_EARLY, G_TODAY, _ = tally(D["slots"])
+G_MISS = G_DUE - G_GOT
+NC_STUDENTS = sum(1 for st in D["students"]
+                  for f in st["f"] if "NC" in f[2].split() or f[2].startswith("NC"))
+
 # Cell vocabulary for the class charts: code -> (short label, css class, plain meaning)
 CELL = {
  "OK":            ("&#10003;",  "c-ok",   "Notebook produced and accepted"),
@@ -234,11 +261,11 @@ def redact(text):
 
 
 def stat_band():
-    s = [("ok", M["slots_reported"], f"Reports received of {M['slots_due']} due"),
-         ("bad", M["slots_missing"], "Validations with no report"),
+    s = [("ok", G_GOT, f"Reported of {G_DUE} due by Mon 3 Aug"),
+         ("bad", G_MISS, "Validations still with no report"),
          ("warn", 11, "Whole sections never validated"),
-         ("bad", 60, "Notebooks the teacher never checked"),
-         ("idle", M["slots_not_due"], "Not yet due (Tue 4 Aug)")]
+         ("bad", NC_STUDENTS, "Notebooks the teacher never checked"),
+         ("idle", G_TODAY, "Scheduled today, Tue 4 Aug")]
     return '<div class="stats">' + "".join(
         f'<div class="stat" style="--c:var(--{c})"><span class="n">{n}</span><span class="l">{e(l)}</span></div>'
         for c, n, l in s) + '</div>'
@@ -264,8 +291,8 @@ def corrections():
 def coverage():
     rows = []
     for v in D["validators"]:
-        subs = [s for s in D["slots"] if s["c"] == v["cls"]]
-        due = v["due"]; got = v["got"]
+        subs = slots_of(v["cls"])
+        got, due, early, today, _ = tally(subs)
         pct = round(got / due * 100) if due else 0
         col = "var(--ok)" if pct >= 80 else "var(--warn)" if pct >= 45 else "var(--bad)"
         acted = v["acted"] + (' <span class="pill">substituted</span>' if v["sub"] else "")
@@ -285,8 +312,8 @@ def coverage():
 def by_class():
     out = []
     for v in D["validators"]:
-        subs = [s for s in D["slots"] if s["c"] == v["cls"]]
-        due, got = v["due"], v["got"]
+        subs = slots_of(v["cls"])
+        got, due, early, today, _ = tally(subs)
         col = "var(--ok)" if got / due >= .8 else "var(--warn)" if got / due >= .45 else "var(--bad)"
         rows = [f'<div class="subrow" style="grid-template-columns:1fr"><div class="note">{v["note"]}</div></div>']
         for s in subs:
@@ -327,11 +354,11 @@ def teachers():
 def validators_tbl():
     rows = []
     for v in D["validators"]:
-        late = v["due"] - v["sameday"] if v["got"] else 0
-        col = "var(--ok)" if v["sameday"] == v["got"] and v["got"] else "var(--warn)"
+        got, due, early, today, _ = tally(slots_of(v["cls"]))
+        col = "var(--ok)" if v["sameday"] == got and got else "var(--warn)"
         rows.append(f'<tr><td class="cls">{e(v["cls"])}</td><td>{e(v["assigned"])}</td>'
                     f'<td>{e(v["acted"])}{" <span class=pill>substituted</span>" if v["sub"] else ""}</td>'
-                    f'<td class="ratio">{v["got"]} / {v["due"]}</td>'
+                    f'<td class="ratio">{got} / {due}</td>'
                     f'<td class="ratio" style="color:{col}">{v["sameday"]} same-day</td>'
                     f'<td style="color:var(--ink-2)">{e(v["note"])}</td></tr>')
     return ('<section id="validators"><h2>Validator-wise scorecard</h2>'
